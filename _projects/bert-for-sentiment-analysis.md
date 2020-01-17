@@ -2,11 +2,15 @@
 title: "Detect Negative Airline Tweets: BERT for Sentiment Analysis"
 date: 2019-12-25
 categories:
-  - reading
+  - projects
 tags:
   - nlp
   - bert
   - tutorial
+toc: true
+toc_label: "Table of Contents"
+toc_icon: "bookmark"
+excerpt: "One of the most biggest milestones in the evolution of NLP recently is the release of Google's BERT, which is described as the beginning of a new era in NLP. In this notebook I'll use the HuggingFace's `transformers` library to fine-tune pretrained BERT model for a classification task."
 
 ---
 [![Run in Google Colab](https://img.shields.io/badge/Colab-Run_in_Google_Colab-blue?logo=Google&logoColor=FDBA18)](https://colab.research.google.com/drive/1f32gj5IYIyFipoINiC8P3DvKat-WWLUK)
