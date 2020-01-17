@@ -297,7 +297,7 @@ compress_html:
     
 # Collections
 collections:
-  reading:
+  projects:
     output: true
     permalink: /:collection/:path/
 
@@ -326,7 +326,7 @@ defaults:
   # _reading
   - scope:
       path: ""
-      type: reading
+      type: projects
     values:
       layout: single
       author_profile: true
