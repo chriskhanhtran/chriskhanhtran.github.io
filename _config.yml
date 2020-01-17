@@ -229,6 +229,11 @@ kramdown:
   smart_quotes: lsquo,rsquo,ldquo,rdquo
   enable_coderay: false
 
+# Collections
+collections:
+  reading:
+    output: true
+    permalink: /:collection/:path/
 
 # Sass/SCSS
 sass:
