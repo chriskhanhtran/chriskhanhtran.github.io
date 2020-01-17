@@ -318,14 +318,15 @@ defaults:
       comments: true
       share: true
       related: # true
-      
-  # _projects
+
+  # _reading
   - scope:
       path: ""
-      type: projects
+      type: reading
     values:
       layout: single
       author_profile: true
       read_time: true
-      comment: true
+      comments: true
       share: true
+      related: # true
