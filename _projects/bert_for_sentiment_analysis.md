@@ -7,7 +7,7 @@ tags:
   - nlp
   - bert
   - tutorial
-permalink: /projects/bert_for_sentiment_analysis.md
+permalink: /projects/bert_for_sentiment_analysis
 
 ---
 [![Run in Google Colab](https://img.shields.io/badge/Colab-Run_in_Google_Colab-blue?logo=Google&logoColor=FDBA18)](https://colab.research.google.com/drive/1f32gj5IYIyFipoINiC8P3DvKat-WWLUK)
