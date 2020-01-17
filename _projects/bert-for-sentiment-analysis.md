@@ -1,5 +1,5 @@
 ---
-title: "Reading Test"
+title: "Detect Negative Airline Tweets: BERT for Sentiment Analysis"
 date: 2019-12-25
 categories:
   - reading
@@ -7,7 +7,6 @@ tags:
   - nlp
   - bert
   - tutorial
-permalink: /reading/reading-test
 
 ---
 [![Run in Google Colab](https://img.shields.io/badge/Colab-Run_in_Google_Colab-blue?logo=Google&logoColor=FDBA18)](https://colab.research.google.com/drive/1f32gj5IYIyFipoINiC8P3DvKat-WWLUK)
@@ -381,7 +380,7 @@ plt.show()
     
 
 
-![png](output_32_1.png)
+![png](https://raw.githubusercontent.com/chriskhanhtran/bert-for-sentiment-analysis/master/output_32_1.png)
 
 
 ### 2.2. Evaluation on Validation Set
@@ -439,7 +438,7 @@ evaluate_roc(probs, y_val)
     
 
 
-![png](output_37_1.png)
+![png](https://raw.githubusercontent.com/chriskhanhtran/bert-for-sentiment-analysis/master/output_37_1.png)
 
 
 # D - Fine-tuning BERT
@@ -963,7 +962,7 @@ evaluate_roc(probs, y_val)
     
 
 
-![png](output_69_1.png)
+![png](https://raw.githubusercontent.com/chriskhanhtran/bert-for-sentiment-analysis/master/output_69_1.png)
 
 
 The Bert Classifer achieves 0.90 AUC score and 82.65% accuracy rate on the validation set. This result is 10 points better than the baseline method. 
