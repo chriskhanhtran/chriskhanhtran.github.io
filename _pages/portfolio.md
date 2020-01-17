@@ -69,7 +69,7 @@ After my team preprocessed a dataset of 10K credit applications and built machin
 
 I performed comprehensive EDA to understand important variables, handled missing values, outliers, performed feature engineering, and ensembled machine learning models to predict house prices. My best model had Mean Absolute Error (MAE) of 12293.919, ranking **95/15502**, approximately **top 0.6%** in the Kaggle leaderboard.
 
-<img src="assets/images/portfolio/ames-house-price.jpg" width="580">
+<img src="https://chriskhanhtran.github.io/assets/images/portfolio/ames-house-price.jpg" width="580">
 
 ---
 ### Predict Breast Cancer with RF, PCA and SVM using Python
@@ -88,4 +88,4 @@ In this project I am going to perform comprehensive EDA on the breast cancer dat
 
 In three-month research and a two-day hackathon, I led a team of four students to discover insights from 6 million records of NYC and Boston government spending data sets and won runner-up prize for the best research poster out of 18 participating colleges.
 
-<img src="assets/images/portfolio/bac2018.JPG" width="580">
+<img src="https://chriskhanhtran.github.io/assets/images/portfolio/bac2018.JPG" width="580">
