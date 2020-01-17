@@ -175,6 +175,7 @@ include:
   - .htaccess
   - _pages
   - _posts
+  - _projects
 exclude:
   - "*.sublime-project"
   - "*.sublime-workspace"
@@ -317,3 +318,14 @@ defaults:
     values:
       layout: single
       author_profile: true
+  
+  # _projects
+  - scope:
+      path: "_projects"
+      type: projects
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      comment: true
+      share: true
