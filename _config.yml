@@ -298,7 +298,15 @@ compress_html:
 
 
 # Defaults
-defaults:
+defaults:   
+  # _pages
+  - scope:
+      path: "_pages"
+      type: pages
+    values:
+      layout: single
+      author_profile: true
+      
   # _posts
   - scope:
       path: ""
@@ -311,17 +319,9 @@ defaults:
       share: true
       related: # true
       
-  # _pages
-  - scope:
-      path: "_pages"
-      type: pages
-    values:
-      layout: single
-      author_profile: true
-  
   # _projects
   - scope:
-      path: "_projects"
+      path: ""
       type: projects
     values:
       layout: single
