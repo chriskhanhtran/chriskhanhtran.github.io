@@ -229,12 +229,6 @@ kramdown:
   smart_quotes: lsquo,rsquo,ldquo,rdquo
   enable_coderay: false
 
-# Collections
-collections:
-  reading:
-    output: true
-    permalink: /:collection/:path/
-
 # Sass/SCSS
 sass:
   sass_dir: _sass
@@ -300,7 +294,12 @@ compress_html:
   clippings: all
   ignore:
     envs: development
-
+    
+# Collections
+collections:
+  reading:
+    output: true
+    permalink: /:collection/:path/
 
 # Defaults
 defaults:   
