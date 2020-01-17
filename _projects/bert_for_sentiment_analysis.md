@@ -2,11 +2,12 @@
 title: "Tutorial: Fine-tuning BERT for Sentiment Analysis"
 date: 2019-12-25
 categories:
-  - posts
+  - projects
 tags:
   - nlp
   - bert
   - tutorial
+permalink: /projects/bert_for_sentiment_analysis.md
 
 ---
 [![Run in Google Colab](https://img.shields.io/badge/Colab-Run_in_Google_Colab-blue?logo=Google&logoColor=FDBA18)](https://colab.research.google.com/drive/1f32gj5IYIyFipoINiC8P3DvKat-WWLUK)
