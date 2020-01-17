@@ -18,6 +18,8 @@ My complete implementation of assignments and projects in [***CS224n: Natural La
 
 ![](https://raw.githubusercontent.com/chriskhanhtran/chriskhanhtran.github.io/master/images/nlp.png)
 
+<img src="https://raw.githubusercontent.com/chriskhanhtran/chriskhanhtran.github.io/master/assets/images/portfolio/nlp.png?token=AMMQJKQAK5HYCNTYUOOYIXK6FOAKE" width="580">
+
 ---
 ### Detect Non-negative Airline Tweets: BERT for Sentiment Analysis
 
@@ -25,27 +27,27 @@ My complete implementation of assignments and projects in [***CS224n: Natural La
 
 The release of Google's BERT is described as the beginning of a new era in NLP. In this notebook I'll use the HuggingFace's transformers library to fine-tune pretrained BERT model for a classification task. Then I will compare BERT's performance with a baseline model, in which I use a TF-IDF vectorizer and a Naive Bayes classifier. The transformers library helps us quickly and efficiently fine-tune the state-of-the-art BERT model and yield an accuracy rate 10% higher than the baseline model.
 
-![](https://raw.githubusercontent.com/chriskhanhtran/chriskhanhtran.github.io/master/images/BERT-classification.png)
+<img src="https://raw.githubusercontent.com/chriskhanhtran/chriskhanhtran.github.io/master/assets/images/portfolio/BERT-classification.png?token=AMMQJKRRMWQPBXVFDFY6HO26FOBRM" width="580">
 
 ---
 ### Detect Food Trends from Facebook Posts: Co-occurence Matrix, Lift and PPMI
 
-[![Open Notebook](https://img.shields.io/badge/Jupyter-Open_Notebook-blue?logo=Jupyter)](https://chriskhanhtran.github.io/projects/detect-food-trends-facebook.html)
+[![Open Notebook](https://img.shields.io/badge/Jupyter-Open_Notebook-blue?logo=Jupyter)](https://chriskhanhtran.github.io/minimal-portfolio/projects/detect-food-trends-facebook.html)
 [![View on GitHub](https://img.shields.io/badge/GitHub-View_on_GitHub-blue?logo=GitHub)](https://github.com/chriskhanhtran/facebook-detect-food-trends)
 
 First I build co-occurence matrices of ingredients from Facebook posts from 2011 to 2015. Then, to identify interesting and rare ingredient combinations that occur more than by chance, I calculate Lift and PPMI metrics. Lastly, I plot time-series data of identified trends to validate my findings. Interesting food trends have emerged from this analysis.
 
-![](https://raw.githubusercontent.com/chriskhanhtran/chriskhanhtran.github.io/master/images/fb-food-trends.png)
+<img src="https://raw.githubusercontent.com/chriskhanhtran/chriskhanhtran.github.io/master/assets/images/portfolio/fb-food-trends.png?token=AMMQJKR3T55HBFGCB3QKMOS6FOBV6" width="580">
 
 ---
 ### Detect Spam Messages: TF-IDF and Naive Bayes Classifier
 
-[![Open Notebook](https://img.shields.io/badge/Jupyter-Open_Notebook-blue?logo=Jupyter)](https://chriskhanhtran.github.io/projects/detect-spam-nlp.html)
+[![Open Notebook](https://img.shields.io/badge/Jupyter-Open_Notebook-blue?logo=Jupyter)](https://chriskhanhtran.github.io/minimal-portfolio/projects/detect-spam-nlp.html)
 [![View on GitHub](https://img.shields.io/badge/GitHub-View_on_GitHub-blue?logo=GitHub)](https://github.com/chriskhanhtran/detect-spam-messages-nlp/blob/master/detect-spam-nlp.ipynb)
 
 In order to predict whether a message is spam, first I vectorized text messages into a format that machine learning algorithms can understand using Bag-of-Word and TF-IDF. Then I trained a machine learning model to learn to discriminate between normal and spam messages. Finally, with the trained model, I classified unlabel messages into normal or spam.
 
-![](https://raw.githubusercontent.com/chriskhanhtran/chriskhanhtran.github.io/master/images/detect-spam-nlp.png)
+<img src="https://raw.githubusercontent.com/chriskhanhtran/chriskhanhtran.github.io/master/assets/images/portfolio/detect-spam-nlp.png?token=AMMQJKTP2IQQW6AMUCQSGTK6FOBYW" width="580">
 
 ---
 ## Data Science
@@ -57,33 +59,33 @@ In order to predict whether a message is spam, first I vectorized text messages 
 
 After my team preprocessed a dataset of 10K credit applications and built machine learning models to predict credit default risk, I built an interactive user interface with Streamlit and hosted the web app on Heroku server.
 
-![](https://raw.githubusercontent.com/chriskhanhtran/chriskhanhtran.github.io/master/images/credit-risk-webapp.png)
+<img src="https://raw.githubusercontent.com/chriskhanhtran/chriskhanhtran.github.io/master/assets/images/portfolio/credit-risk-webapp.png?token=AMMQJKU7PTD4G5CYWEAH4JC6FOB64" width="580">
 
 ---
 ### Kaggle Competition: Predict Ames House Price using Lasso, Ridge, XGBoost and LightGBM
 
-[![Open Notebook](https://img.shields.io/badge/Jupyter-Open_Notebook-blue?logo=Jupyter)](https://chriskhanhtran.github.io/projects/ames-house-price.html)
+[![Open Notebook](https://img.shields.io/badge/Jupyter-Open_Notebook-blue?logo=Jupyter)](https://chriskhanhtran.github.io/minimal-portfolio/projects/ames-house-price.html)
 [![View on GitHub](https://img.shields.io/badge/GitHub-View_on_GitHub-blue?logo=GitHub)](https://github.com/chriskhanhtran/kaggle-house-price/blob/master/ames-house-price.ipynb)
 
 I performed comprehensive EDA to understand important variables, handled missing values, outliers, performed feature engineering, and ensembled machine learning models to predict house prices. My best model had Mean Absolute Error (MAE) of 12293.919, ranking **95/15502**, approximately **top 0.6%** in the Kaggle leaderboard.
 
-![](https://raw.githubusercontent.com/chriskhanhtran/chriskhanhtran.github.io/master/images/ames-house-price.jpg)
+<img src="assets/images/portfolio/ames-house-price.jpg" width="580">
 
 ---
 ### Predict Breast Cancer with RF, PCA and SVM using Python
 
-[![Open Notebook](https://img.shields.io/badge/Jupyter-Open_Notebook-blue?logo=Jupyter)](https://chriskhanhtran.github.io/projects/breast-cancer.html)
+[![Open Notebook](https://img.shields.io/badge/Jupyter-Open_Notebook-blue?logo=Jupyter)](https://chriskhanhtran.github.io/minimal-portfolio/projects/breast-cancer.html)
 [![View on GitHub](https://img.shields.io/badge/GitHub-View_on_GitHub-blue?logo=GitHub)](https://github.com/chriskhanhtran/predict-breast-cancer-with-rf-pca-svm/blob/master/breast-cancer.ipynb)
 
 In this project I am going to perform comprehensive EDA on the breast cancer dataset, then transform the data using Principal Components Analysis (PCA) and use Support Vector Machine (SVM) model to predict whether a patient has breast cancer.
 
-![](https://raw.githubusercontent.com/chriskhanhtran/chriskhanhtran.github.io/master/images/breast-cancer.png)
+<img src="https://raw.githubusercontent.com/chriskhanhtran/chriskhanhtran.github.io/master/assets/images/portfolio/breast-cancer.png?token=AMMQJKSMU3YPNVGXLEQMLKK6FOCGI" width="580">
 
 ---
 ### Business Analytics Conference 2018: How is NYC's Government Using Money?
 
-[![Open Research Poster](https://img.shields.io/badge/PDF-Open_Research_Poster-blue?logo=adobe-acrobat-reader&logoColor=white)](https://chriskhanhtran.github.io/pdf/bac2018.pdf)
+[![Open Research Poster](https://img.shields.io/badge/PDF-Open_Research_Poster-blue?logo=adobe-acrobat-reader&logoColor=white)](https://chriskhanhtran.github.io/minimal-portfolio/pdf/bac2018.pdf)
 
 In three-month research and a two-day hackathon, I led a team of four students to discover insights from 6 million records of NYC and Boston government spending data sets and won runner-up prize for the best research poster out of 18 participating colleges.
 
-![](https://raw.githubusercontent.com/chriskhanhtran/chriskhanhtran.github.io/master/images/bac2018.JPG)
+<img src="assets/images/portfolio/bac2018.JPG" width="580">
