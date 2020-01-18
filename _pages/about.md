@@ -8,7 +8,7 @@ header:
 
 <img src="https://chriskhanhtran.github.io/assets/images/about-me-600x600.png" width="300">{: .align-center}
 
-[Resume](https://chriskhanhtran.github.io/minimal-portfolio/pdf/resume.pdf){:.btn .btn--info} [Portfolio](https://chriskhanhtran.github.io/portfolio/){: .btn .btn--info} [LinkedIn](https://www.linkedin.com/in/chriskhanhtran/){: .btn .btn--info}{: .text-center}
+[Resume](https://chriskhanhtran.github.io/minimal-portfolio/pdf/resume.pdf){: .text-center .btn .btn--info} [Portfolio](https://chriskhanhtran.github.io/portfolio/){: .text-center .btn .btn--info} [LinkedIn](https://www.linkedin.com/in/chriskhanhtran/){: .text-center .btn .btn--info}
 
 ## Career Objectives
 My name is Chris Tran. I am a **Machine Learning Research Intern** at **Skim AI Technologies**, where I applies latest research in Deep Learning NLP to make machines understand human languages better. Projects I am working on include Sentiment Analysis, Language Generation and Document Summarization. My research interests are in transfer learning, where deep neural networks which were pretained on large corpora to "understand" our langagues can be fine-tuned for different tasks on much smaller datasets to receive near state-of-the-art results.
@@ -27,11 +27,11 @@ I still vividly remember summer nights in my childhood in Vietnam, when a closed
 
 <img src="https://chriskhanhtran.github.io/assets/images/milkyway-1280x853.jpg" width="580">{: .align-center}
 
-*Milky Way, taken at Catskills Mountains, NY*{: .text-center}
+*Milky Way, Taken by Me at Catskills Mountains, NY*{: .text-center}
 
 I also made short films about cities I visited to retain beautiful memories I had about the culture and people I met on the way.
 
-[View My Short Films](https://chriskhanhtran.github.io/films/){: .text-center .btn .btn--info}
+[View My Short Films](https://chriskhanhtran.github.io/films/){: .text-center}{: .btn .btn--info}
 
 ### Long Distance Running
 I started running long distance in 2016. Since then I have completed several half and full-marathons. My most favorite book is ***What I Talk About When I Talks about Running*** by **Haruki Murakami**. His book brought me to running, and through running, I can see so much of me in his book. Running trains me to be quieter and understand myself more clearly.
