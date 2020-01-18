@@ -51,7 +51,7 @@ First I build co-occurence matrices of ingredients from Facebook posts from 2011
 
 In order to predict whether a message is spam, first I vectorized text messages into a format that machine learning algorithms can understand using Bag-of-Word and TF-IDF. Then I trained a machine learning model to learn to discriminate between normal and spam messages. Finally, with the trained model, I classified unlabel messages into normal or spam.
 
-<img src="https://raw.githubusercontent.com/chriskhanhtran/chriskhanhtran.github.io/master/assets/images/portfolio/detect-spam-nlp.png?token=AMMQJKTP2IQQW6AMUCQSGTK6FOBYW" width="580">
+<img src="https://raw.githubusercontent.com/chriskhanhtran/chriskhanhtran.github.io/master/assets/images/portfolio/detect-spam-nlp.png?token=AMMQJKTP2IQQW6AMUCQSGTK6FOBYW" width="580">{: .align-center}
 
 ---
 ## Data Science
@@ -63,7 +63,7 @@ In order to predict whether a message is spam, first I vectorized text messages 
 
 After my team preprocessed a dataset of 10K credit applications and built machine learning models to predict credit default risk, I built an interactive user interface with Streamlit and hosted the web app on Heroku server.
 
-<img src="https://raw.githubusercontent.com/chriskhanhtran/chriskhanhtran.github.io/master/assets/images/portfolio/credit-risk-webapp.png?token=AMMQJKU7PTD4G5CYWEAH4JC6FOB64" width="580">
+<img src="https://raw.githubusercontent.com/chriskhanhtran/chriskhanhtran.github.io/master/assets/images/portfolio/credit-risk-webapp.png?token=AMMQJKU7PTD4G5CYWEAH4JC6FOB64" width="580">{: .align-center}
 
 ---
 ### Kaggle Competition: Predict Ames House Price using Lasso, Ridge, XGBoost and LightGBM
@@ -73,7 +73,7 @@ After my team preprocessed a dataset of 10K credit applications and built machin
 
 I performed comprehensive EDA to understand important variables, handled missing values, outliers, performed feature engineering, and ensembled machine learning models to predict house prices. My best model had Mean Absolute Error (MAE) of 12293.919, ranking **95/15502**, approximately **top 0.6%** in the Kaggle leaderboard.
 
-<img src="https://chriskhanhtran.github.io/assets/images/portfolio/ames-house-price.jpg" width="580">
+<img src="https://chriskhanhtran.github.io/assets/images/portfolio/ames-house-price.jpg" width="580">{: .align-center}
 
 ---
 ### Predict Breast Cancer with RF, PCA and SVM using Python
@@ -83,7 +83,7 @@ I performed comprehensive EDA to understand important variables, handled missing
 
 In this project I am going to perform comprehensive EDA on the breast cancer dataset, then transform the data using Principal Components Analysis (PCA) and use Support Vector Machine (SVM) model to predict whether a patient has breast cancer.
 
-<img src="https://raw.githubusercontent.com/chriskhanhtran/chriskhanhtran.github.io/master/assets/images/portfolio/breast-cancer.png?token=AMMQJKSMU3YPNVGXLEQMLKK6FOCGI" width="580">
+<img src="https://raw.githubusercontent.com/chriskhanhtran/chriskhanhtran.github.io/master/assets/images/portfolio/breast-cancer.png?token=AMMQJKSMU3YPNVGXLEQMLKK6FOCGI" width="580">{: .align-center}
 
 ---
 ### Business Analytics Conference 2018: How is NYC's Government Using Money?
@@ -92,4 +92,4 @@ In this project I am going to perform comprehensive EDA on the breast cancer dat
 
 In three-month research and a two-day hackathon, I led a team of four students to discover insights from 6 million records of NYC and Boston government spending data sets and won runner-up prize for the best research poster out of 18 participating colleges.
 
-<img src="https://chriskhanhtran.github.io/assets/images/portfolio/bac2018.JPG" width="580">
+<img src="https://chriskhanhtran.github.io/assets/images/portfolio/bac2018.JPG" width="580">{: .align-center}
