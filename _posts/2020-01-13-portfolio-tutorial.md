@@ -87,17 +87,13 @@ To remove them, we need go to the original repository of the [**Jekyll Minimal t
 
 Now we can remove lines 29-31 in `_layouts/default.html` to remove **View My GitHub Profile**,
 
-    <pre>
     {% if site.github.is_user_page %}
     <p class="view"><a href="{{ site.github.owner_url }}">View My GitHub Profile</a></p>
     {% endif %}
-    </pre>
 
 and line 50 to remove **Hosted on GitHub pages - Theme by orderedlist**.
 
-    <pre>
     <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
-    </pre>
 
 ## Step 4: Upload Our Projects
 
@@ -161,7 +157,7 @@ Last but also the most important thing I want to say in this tutorial, the reaso
 - [Building a Data Science Portfolio That Stands Out](https://www.springboard.com/blog/data-science-portfolio/) in Springboard Blog
 - [5 Data Science Projects That Will Get You Hired in 2018](https://medium.com/@dataoptimal9/5-data-science-projects-that-will-get-you-hired-in-2018-9e51525084e) in Medium
 
-Feel free to visit my portfolio to see how I write my Data Science projects. For example, this is a detailed [notebook](https://chriskhanhtran.github.io/projects/ames-house-price.html) I wrote after completing a Kaggle competition, in which I went through all important steps of a Data Science project, including **Exploratory Data Analysis, Data Cleaning, Feature Engineering, Modeling and Evaluation**. Now I still often revisit this notebook to copy the cross-validation codes to reuse. I found I learn the most by reading notebooks on Kaggle and writing my own projects.
+Feel free to visit my portfolio to see how I write my Data Science projects. For example, this is a detailed [notebook](https://chriskhanhtran.github.io/minimal-portfolio/projects/ames-house-price.html) I wrote after completing a Kaggle competition, in which I went through all important steps of a Data Science project, including **Exploratory Data Analysis, Data Cleaning, Feature Engineering, Modeling and Evaluation**. Now I still often revisit this notebook to copy the cross-validation codes to reuse. I found I learn the most by reading notebooks on Kaggle and writing my own projects.
 
 I also made some changes in my portfolio compared to the original version, such as making the sidebar narrower and the main page wider. You can **fork** my repo ([https://github.com/chriskhanhtran/minimal-portfolio](https://github.com/chriskhanhtran/minimal-portfolio)) and change the codes in the diretory `_sass/jekyll-theme-minimal.scss` as you like, including changing width, font size or image size. However, be careful when you do so because it might mess your page up. If so, just recover the settings by copying from the theme's original repo.
 
