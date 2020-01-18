@@ -34,7 +34,7 @@ I still vividly remember summer nights in my childhood in Vietnam, when a closed
 
 I also made short films about cities I visited to retain beautiful memories I had about the culture and people I met on the way.
 
-[View My Short Films](https://chriskhanhtran.github.io/films/){: .text-center}{: .btn .btn--info}
+[Watch My Short Films](https://chriskhanhtran.github.io/films/){: .text-center}{: .btn .btn--info}
 {: .small}
 {: .text-center}
 
