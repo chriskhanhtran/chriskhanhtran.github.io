@@ -11,6 +11,7 @@ toc: true
 toc_label: "Table of Contents"
 toc_icon: "bookmark"
 excerpt: "One of the most biggest milestones in the evolution of NLP recently is the release of Google's BERT, which is described as the beginning of a new era in NLP. In this notebook I'll use the HuggingFace's `transformers` library to fine-tune pretrained BERT model for a classification task."
+teaser: https://raw.githubusercontent.com/chriskhanhtran/chriskhanhtran.github.io/master/assets/images/portfolio/BERT-classification.png?token=AMMQJKRRMWQPBXVFDFY6HO26FOBRM
 
 ---
 [![Run in Google Colab](https://img.shields.io/badge/Colab-Run_in_Google_Colab-blue?logo=Google&logoColor=FDBA18)](https://colab.research.google.com/drive/1f32gj5IYIyFipoINiC8P3DvKat-WWLUK)
