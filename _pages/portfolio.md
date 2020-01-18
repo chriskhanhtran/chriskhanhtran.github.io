@@ -16,7 +16,9 @@ My complete implementation of assignments and projects in [***CS224n: Natural La
 
 **Dependency Parsing:** A Neural Transition-Based Dependency Parsing system with one-layer MLP ([GitHub](https://github.com/chriskhanhtran/CS224n-NLP-Assignments/tree/master/assignments/a3)).
 
-<img src="https://raw.githubusercontent.com/chriskhanhtran/chriskhanhtran.github.io/master/assets/images/portfolio/nlp.png?token=AMMQJKQAK5HYCNTYUOOYIXK6FOAKE" width="580">{: .align-center}
+<figure class="align-center">
+  <img src="https://raw.githubusercontent.com/chriskhanhtran/chriskhanhtran.github.io/master/assets/images/portfolio/nlp.png?token=AMMQJKQAK5HYCNTYUOOYIXK6FOAKE" width="580">
+</figure>
 
 ---
 ### Detect Non-negative Airline Tweets: BERT for Sentiment Analysis
@@ -25,7 +27,9 @@ My complete implementation of assignments and projects in [***CS224n: Natural La
 
 The release of Google's BERT is described as the beginning of a new era in NLP. In this notebook I'll use the HuggingFace's transformers library to fine-tune pretrained BERT model for a classification task. Then I will compare BERT's performance with a baseline model, in which I use a TF-IDF vectorizer and a Naive Bayes classifier. The transformers library helps us quickly and efficiently fine-tune the state-of-the-art BERT model and yield an accuracy rate 10% higher than the baseline model.
 
-<img src="https://raw.githubusercontent.com/chriskhanhtran/chriskhanhtran.github.io/master/assets/images/portfolio/BERT-classification.png?token=AMMQJKRRMWQPBXVFDFY6HO26FOBRM" width="580">
+<figure class="align-center">
+  <img src="https://raw.githubusercontent.com/chriskhanhtran/chriskhanhtran.github.io/master/assets/images/portfolio/BERT-classification.png?token=AMMQJKRRMWQPBXVFDFY6HO26FOBRM" width="580">
+</figure> 
 
 ---
 ### Detect Food Trends from Facebook Posts: Co-occurence Matrix, Lift and PPMI
@@ -35,7 +39,9 @@ The release of Google's BERT is described as the beginning of a new era in NLP. 
 
 First I build co-occurence matrices of ingredients from Facebook posts from 2011 to 2015. Then, to identify interesting and rare ingredient combinations that occur more than by chance, I calculate Lift and PPMI metrics. Lastly, I plot time-series data of identified trends to validate my findings. Interesting food trends have emerged from this analysis.
 
-<img src="https://raw.githubusercontent.com/chriskhanhtran/chriskhanhtran.github.io/master/assets/images/portfolio/fb-food-trends.png?token=AMMQJKR3T55HBFGCB3QKMOS6FOBV6" width="580">
+<figure class="align-center">
+  <img src="https://raw.githubusercontent.com/chriskhanhtran/chriskhanhtran.github.io/master/assets/images/portfolio/fb-food-trends.png?token=AMMQJKR3T55HBFGCB3QKMOS6FOBV6" width="580">
+</figure>
 
 ---
 ### Detect Spam Messages: TF-IDF and Naive Bayes Classifier
