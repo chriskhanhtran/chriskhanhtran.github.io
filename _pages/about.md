@@ -35,6 +35,7 @@ I still vividly remember summer nights in my childhood in Vietnam, when a closed
 I also made short films about cities I visited to retain beautiful memories I had about the culture and people I met on the way.
 
 [View My Short Films](https://chriskhanhtran.github.io/films/){: .text-center}{: .btn .btn--info}
+{: .text-center}
 
 ### Long Distance Running
 I started running long distance in 2016. Since then I have completed several half and full-marathons. My most favorite book is ***What I Talk About When I Talks about Running*** by **Haruki Murakami**. His book brought me to running, and through running, I can see so much of me in his book. Running trains me to be quieter and understand myself more clearly.
@@ -46,4 +47,5 @@ I started running long distance in 2016. Since then I have completed several hal
 > "As I run I tell myself to think of a river. And clouds. But essentially I'm not thinking of a thing. All I do is keep on running in my own cozy, homemade void, my own nostalgic silence. And this is a pretty wonderful thing. No matter what anybody else says."
 
 <cite>Haruki Murakami</cite> --- ***What I Talk About When I Talk About Running***
-{: .text-right}{: .small}
+{: .small}
+{: .text-right}
