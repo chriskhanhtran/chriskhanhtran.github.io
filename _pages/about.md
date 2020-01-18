@@ -38,7 +38,7 @@ I also made short films about cities I visited to retain beautiful memories I ha
 {: .text-center}
 
 ### Long Distance Running
-I started running long distance in 2016. Since then I have completed several half and full-marathons. My most favorite book is ***What I Talk About When I Talks about Running*** by **Haruki Murakami**. His book brought me to running, and through running, I can see so much of me in his book. Running trains me to be quieter and understand myself more clearly.
+I started running long distance in 2016. Since then I have completed several half and full-marathons. My most favorite book is ***What I Talk About When I Talks about Running*** by **Haruki Murakami**. His book brought me to running, and through running, I can see so much of me in his books. Running trains me to be quieter and understand myself more clearly. Below are some excerpts in the book that I like:
 
 > “For me, running is both exercise and a metaphor. Running day after day, piling up the races, bit by bit I raise the bar, and by clearing each level I elevate myself. At least that’s why I’ve put in the effort day after day: to raise my own level. I’m no great runner, by any means. I’m at an ordinary – or perhaps more like mediocre – level. But that’s not the point. The point is whether or not I improved over yesterday. In long-distance running the only opponent you have to beat is yourself, the way you used to be.”
 
