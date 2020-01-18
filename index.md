@@ -28,6 +28,7 @@ I still vividly remember summer nights in my childhood in Vietnam, when a closed
 
 <img src="https://chriskhanhtran.github.io/assets/images/milkyway-1280x853.jpg" width="580">{: .align-center}
 *Milky Way, taken by me at Catskills Mountains, NY*
+{: .small}
 {: .text-center}
 
 I also made short films about cities I visited to retain beautiful memories I had about the culture and people I met on the way.
