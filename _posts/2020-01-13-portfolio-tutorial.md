@@ -86,15 +86,15 @@ To remove them, we need go to the original repository of the [**Jekyll Minimal t
 Now we can remove lines 29-31 in `_layouts/default.html` to remove **View My GitHub Profile**,
 
 <pre>
-{% if site.github.is_user_page %}
-<p class="view"><a href="{{ site.github.owner_url }}">View My GitHub Profile</a></p>
-{% endif %}
+    {% if site.github.is_user_page %}
+    <p class="view"><a href="{{ site.github.owner_url }}">View My GitHub Profile</a></p>
+    {% endif %}
 </pre>
 
 and line 50 to remove **Hosted on GitHub pages - Theme by orderedlist**.
 
 <pre>
-<p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
+    <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
 </pre>
 
 ## Step 4: Upload Our Projects
