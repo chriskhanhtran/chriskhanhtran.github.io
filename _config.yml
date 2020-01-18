@@ -109,7 +109,7 @@ analytics:
 author:
   name             : "Chris Tran"
   avatar           : "/assets/images/profile-photo.png"
-  bio              : "<i>A learner, a runner and a stargazer.</i>"
+  bio              : "<i>A learner,<br>a runner,<br>and a stargazer.</i>"
   location         :
   email            : 
   links:
