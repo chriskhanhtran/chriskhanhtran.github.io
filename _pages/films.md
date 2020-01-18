@@ -7,11 +7,18 @@ header:
     provider: youtube
     
 ---
-[![View My Films](https://img.shields.io/badge/YouTube-View_My_Films-grey?logo=youtube&labelColor=FF0000)](https://www.youtube.com/watch?v=vfZwdEWgUPE)
+[![My Channel](https://img.shields.io/badge/YouTube-My Channel-grey?logo=youtube&labelColor=FF0000)](https://www.youtube.com/channel/UCo8okHIdSppn_idUVuuebhg)
 
-Besides Data Science, I also have a great passion for photography and videography. Below is a list of films I documented to retain beautiful memories of places I traveled to and amazing people I met on the way.
+Besides Data Science, I have a great passion for photography and videography. Below is a list of films I documented to retain beautiful memories of places I traveled to and amazing people I met on the way.
 
-- [Ada Von Weiss - You Regret (Winter at Niagara)](https://www.youtube.com/watch?v=-5esqvmPnHI)
-- [The Weight We Carry is Love - TORONTO](https://www.youtube.com/watch?v=vfZwdEWgUPE)
-- [In America - Boston 2017](https://www.youtube.com/watch?v=YdXufiebgyc)
-- [In America - We Call This Place Our Home (Massachusetts)](https://www.youtube.com/watch?v=jzfcM_iO0FU)
+**Ada Von Weiss - You Regret (Winter at Niagara)**
+{% include video id="5esqvmPnHI" provider="youtube" %}
+
+**The Weight We Carry is Love - TORONTO**
+{% include video id="vfZwdEWgUPE" provider="youtube" %}
+
+**In America - Boston 2017**
+{% include video id="YdXufiebgyc" provider="youtube" %}
+
+**In America - We Call This Place Our Home (Massachusetts)**
+{% include video id="jzfcM_iO0FU" provider="youtube" %}
