@@ -26,20 +26,20 @@ When not working on my projects or studying, I like to read blogs in AI and Mach
 
 ## Hobbies
 ### Photography
-I still vividly remember summer nights in my childhood in Vietnam, when a closed friend of mine and I lied in the rooftop of my house looking up to the starry sky. We talked about our dreams, about the vastness of the misterious universe and tried to listen to the sound of the planets moving. The milkyway became a part of my childhood memories. When I grew up, I bought my first DSLR camera to take clear photos of the night sky. Being under billions of bright stars in a quiet night, I feel calm and I hear my inner voice.
+I still vividly remember summer nights in my childhood in Vietnam, when a closed friend of mine and I lied in the rooftop of my house looking up to the starry sky. We talked about our dreams, about the vastness of the misterious universe and tried to listen to the sound of the planets moving. The milkyway became a part of my childhood memories. When I grew up, I bought my first DSLR camera to take clear photos of the night sky. Being under billions of bright stars in a quiet night, I feel calm and I can listen to my inner voice.
 
 <img src="https://chriskhanhtran.github.io/assets/images/milkyway-1280x853.jpg" width="580">{: .align-center}
 *Milky Way, taken by me at Catskills Mountains, NY*
-{: .text-center}
-
-I also made short films about cities I visited to retain beautiful memories I had about the culture and people I met on the way.
-
-[Watch My Short Films](https://chriskhanhtran.github.io/films/){: .text-center}{: .btn .btn--info}
 {: .small}
 {: .text-center}
 
+I also made short films about cities I visited to keep beautiful memories of cultures and people I met on the way.
+
+[Watch My Short Films](https://chriskhanhtran.github.io/films/){: .text-center}{: .btn .btn--info}
+{: .text-center}
+
 ### Long Distance Running
-I started running long distance in 2016. Since then I have completed several half and full-marathons. My most favorite book is ***What I Talk About When I Talks about Running*** by **Haruki Murakami**. His book brought me to running, and through running, I can see so much of me in his books. Running trains me to be quieter and understand myself more clearly. Below are some excerpts from the book:
+I started running long distance in 2016. Since then I have completed several half and full-marathons. Running push me to the limits of my physiscal and mental strengths and beyond. My most favorite book is ***What I Talk About When I Talk About Running*** by **Haruki Murakami**. His book brought me to running, and through running, I can see so much of me in his books. Below are some excerpts from the book:
 
 > “For me, running is both exercise and a metaphor. Running day after day, piling up the races, bit by bit I raise the bar, and by clearing each level I elevate myself. At least that’s why I’ve put in the effort day after day: to raise my own level. I’m no great runner, by any means. I’m at an ordinary – or perhaps more like mediocre – level. But that’s not the point. The point is whether or not I improved over yesterday. In long-distance running the only opponent you have to beat is yourself, the way you used to be.”
 
@@ -50,3 +50,8 @@ I started running long distance in 2016. Since then I have completed several hal
 <cite>Haruki Murakami</cite> --- ***What I Talk About When I Talk About Running***
 {: .small}
 {: .text-right}
+
+<img src="https://chriskhanhtran.github.io/assets/images/lbm-2016.jpg" width="580">{: .align-center}
+*Longbien Marathon, Hanoi 2016*
+{: .small}
+{: .text-center}
