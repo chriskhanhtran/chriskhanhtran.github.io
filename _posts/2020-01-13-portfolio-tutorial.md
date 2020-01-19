@@ -9,7 +9,7 @@ tags:
   - github
 header:
   image: https://images.unsplash.com/photo-1484417894907-623942c8ee29?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1489&q=80
-  teaser: https://github.com/chriskhanhtran/portfolio-tutorial/blob/master/images/1.PNG?raw=true
+  teaser: https://images.unsplash.com/photo-1484417894907-623942c8ee29?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1489&q=80
   
 toc: true
 toc_label: "Table of Contents"
