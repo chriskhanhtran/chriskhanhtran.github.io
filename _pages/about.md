@@ -26,7 +26,7 @@ When not working on my projects or studying, I like to read blogs in AI and Mach
 
 ## Hobbies
 ### Photography
-I still vividly remember summer nights in my childhood in Vietnam, when a closed friend and I lied on the rooftop of my house looking up to the starry sky. We talked about our dreams, about the vastness of the misterious universe and tried to listen to the sound of the planets moving. The milkyway became a part of my childhood memories. When I grew up, I bought my first DSLR camera to take clear photos of the night sky. Being under billions of bright stars in a quiet night, I feel calm and I can listen to my inner voice.
+I still vividly remember summer nights during my childhood in Vietnam, when my close friend and I lied on the rooftop of my house looking up to the starry sky. We talked about our dreams, about the vastness of the misterious universe and tried to listen to the sound of the planets moving. The milkyway became a part of my childhood memories. When I grew up, I bought my first DSLR camera to take clear photos of the night sky. Being under billions of bright stars in a quiet night, I feel calm and I can listen to my inner voice.
 
 <img src="https://chriskhanhtran.github.io/assets/images/milkyway-1280x853.jpg" width="580">{: .align-center}
 *Milky Way, taken by me at Catskills Mountains, NY*
