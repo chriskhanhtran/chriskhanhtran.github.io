@@ -3,12 +3,11 @@ title: "About"
 permalink: /about/
 header:
   image: /assets/images/about-header-1566x403.jpg
-  
 ---
 
 <img src="https://chriskhanhtran.github.io/assets/images/about-me-600x600.png" width="250">{: .align-center}
 
-[Resume](https://chriskhanhtran.github.io/minimal-portfolio/pdf/resume.pdf){: .btn .btn--info} [Portfolio](https://chriskhanhtran.github.io/portfolio/){: .btn .btn--info} [LinkedIn](https://www.linkedin.com/in/chriskhanhtran/){: .btn .btn--info}
+[Resume](https://chriskhanhtran.github.io/pdf/resume-2020-01-19.pdf){: .btn .btn--info} [Portfolio](https://chriskhanhtran.github.io/portfolio/){: .btn .btn--info} [LinkedIn](https://www.linkedin.com/in/chriskhanhtran/){: .btn .btn--info}
 {: .text-center}
 
 ## Career Objectives
