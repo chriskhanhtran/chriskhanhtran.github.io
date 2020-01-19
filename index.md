@@ -49,7 +49,7 @@ I started running long distance in 2016. Since then I have completed several hal
 {: .small}
 {: .text-right}
 
-<img src="https://chriskhanhtran.github.io/assets/images/lbm-2016.jpg" width="580">{: .align-center}
+<img src="https://chriskhanhtran.github.io/assets/images/lbm-2016.jpg" width="400">{: .align-center}
 *Longbien Marathon, Hanoi 2016*
 {: .small}
 {: .text-center}
