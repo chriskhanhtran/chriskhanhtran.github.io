@@ -21,7 +21,14 @@ body {
   }
 }
 
-h1,
+h1 {
+  margin: 2em 0 0.5em;
+  line-height: 1.2;
+  font-family: "EB Garamond", serif;
+  font-weight: 500;
+}
+
+
 h2,
 h3,
 h4,
