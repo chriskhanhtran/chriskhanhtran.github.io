@@ -16,7 +16,7 @@ My complete implementation of assignments and projects in [***CS224n: Natural La
 
 **Dependency Parsing:** A Neural Transition-Based Dependency Parsing system with one-layer MLP ([GitHub](https://github.com/chriskhanhtran/CS224n-NLP-Assignments/tree/master/assignments/a3)).
 
-<img src="https://raw.githubusercontent.com/chriskhanhtran/chriskhanhtran.github.io/master/assets/images/portfolio/nlp.png?token=AMMQJKQAK5HYCNTYUOOYIXK6FOAKE" width="580">{: .align-center}
+<img src="https://chriskhanhtran.github.io/minimal-portfolio/images/nlp.png" width="580">{: .align-center}
 
 ---
 ### Detect Non-negative Airline Tweets: BERT for Sentiment Analysis
@@ -26,7 +26,7 @@ My complete implementation of assignments and projects in [***CS224n: Natural La
 The release of Google's BERT is described as the beginning of a new era in NLP. In this notebook I'll use the HuggingFace's transformers library to fine-tune pretrained BERT model for a classification task. Then I will compare BERT's performance with a baseline model, in which I use a TF-IDF vectorizer and a Naive Bayes classifier. The transformers library helps us quickly and efficiently fine-tune the state-of-the-art BERT model and yield an accuracy rate 10% higher than the baseline model.
 [Read More](https://chriskhanhtran.github.io/projects/bert-for-sentiment-analysis/){: .btn .btn--info}
 
-<img src="https://raw.githubusercontent.com/chriskhanhtran/chriskhanhtran.github.io/master/assets/images/portfolio/BERT-classification.png?token=AMMQJKRRMWQPBXVFDFY6HO26FOBRM" width="580">{: .align-center}
+<img src="https://chriskhanhtran.github.io/minimal-portfolio/images/BERT-classification.png" width="580">{: .align-center}
 
 ---
 ### Detect Food Trends from Facebook Posts: Co-occurence Matrix, Lift and PPMI
@@ -36,7 +36,7 @@ The release of Google's BERT is described as the beginning of a new era in NLP. 
 
 First I build co-occurence matrices of ingredients from Facebook posts from 2011 to 2015. Then, to identify interesting and rare ingredient combinations that occur more than by chance, I calculate Lift and PPMI metrics. Lastly, I plot time-series data of identified trends to validate my findings. Interesting food trends have emerged from this analysis.
 
-<img src="https://raw.githubusercontent.com/chriskhanhtran/chriskhanhtran.github.io/master/assets/images/portfolio/fb-food-trends.png?token=AMMQJKR3T55HBFGCB3QKMOS6FOBV6" width="580">{: .align-center}
+<img src="https://chriskhanhtran.github.io/minimal-portfolio/images/fb-food-trends.png" width="580">{: .align-center}
 
 ---
 ### Detect Spam Messages: TF-IDF and Naive Bayes Classifier
@@ -46,7 +46,7 @@ First I build co-occurence matrices of ingredients from Facebook posts from 2011
 
 In order to predict whether a message is spam, first I vectorized text messages into a format that machine learning algorithms can understand using Bag-of-Word and TF-IDF. Then I trained a machine learning model to learn to discriminate between normal and spam messages. Finally, with the trained model, I classified unlabel messages into normal or spam.
 
-<img src="https://raw.githubusercontent.com/chriskhanhtran/chriskhanhtran.github.io/master/assets/images/portfolio/detect-spam-nlp.png?token=AMMQJKTP2IQQW6AMUCQSGTK6FOBYW" width="580">{: .align-center}
+<img src="https://chriskhanhtran.github.io/minimal-portfolio/images/detect-spam-nlp.png" width="580">{: .align-center}
 
 ---
 ## Data Science
@@ -58,7 +58,7 @@ In order to predict whether a message is spam, first I vectorized text messages 
 
 After my team preprocessed a dataset of 10K credit applications and built machine learning models to predict credit default risk, I built an interactive user interface with Streamlit and hosted the web app on Heroku server.
 
-<img src="https://raw.githubusercontent.com/chriskhanhtran/chriskhanhtran.github.io/master/assets/images/portfolio/credit-risk-webapp.png?token=AMMQJKU7PTD4G5CYWEAH4JC6FOB64" width="580">{: .align-center}
+<img src="https://chriskhanhtran.github.io/minimal-portfolio/images/credit-risk-webapp.png" width="580">{: .align-center}
 
 ---
 ### Kaggle Competition: Predict Ames House Price using Lasso, Ridge, XGBoost and LightGBM
@@ -78,7 +78,7 @@ I performed comprehensive EDA to understand important variables, handled missing
 
 In this project I am going to perform comprehensive EDA on the breast cancer dataset, then transform the data using Principal Components Analysis (PCA) and use Support Vector Machine (SVM) model to predict whether a patient has breast cancer.
 
-<img src="https://raw.githubusercontent.com/chriskhanhtran/chriskhanhtran.github.io/master/assets/images/portfolio/breast-cancer.png?token=AMMQJKSMU3YPNVGXLEQMLKK6FOCGI" width="580">{: .align-center}
+<img src="https://chriskhanhtran.github.io/minimal-portfolio/images/breast-cancer.png" width="580">{: .align-center}
 
 ---
 ### Business Analytics Conference 2018: How is NYC's Government Using Money?
