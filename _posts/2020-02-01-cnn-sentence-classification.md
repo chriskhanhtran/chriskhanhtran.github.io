@@ -339,6 +339,7 @@ data_loader(train_inputs, val_inputs, train_labels, val_labels, batch_size=50)
 **CNN Architecture**
 
 The picture below is the illustration of the CNN architecture that we are going to build with three filter sizes: 2, 3, and 4, each of which has 2 filters.
+
 <img src="https://github.com/chriskhanhtran/CNN-Sentence-Classification-PyTorch/blob/master/cnn-architecture.JPG?raw=true" width="650">{: .align-center}
 *CNN Architecture (Source: Zhang, 2015)*
 {: .text-center}
@@ -384,9 +385,7 @@ For simplicity, the model above has very small configurations. The final model w
 |num filters         |(100, 100, 100)  |
 |activation          |ReLU             |
 |pooling             |1-max pooling    |
-|dropout rate        |0.5              |
-{: .text-center}
-
+|dropout rate        |0.5              |{: .align-center}
 
 
 ```python
@@ -666,8 +665,7 @@ We will experiment with all 3 variations and compare their performance. Below is
 |:----------------|:-------------:|:-----------:|
 |CNN-rand         |76.1           |74.2         |
 |CNN-static       |81.0           |82.7         |
-|CNN-non-static   |81.5           |84.4         |
-{: .text-center}
+|CNN-non-static   |81.5           |84.4         |{: .align-center}
 
 Randomness could cause the difference in the results. I think the reason for the improvement in our results is that we used fastText pretrained vectors, which are of higher quality than word2vec vectors that the author used.
 
