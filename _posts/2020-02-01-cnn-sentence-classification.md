@@ -17,7 +17,6 @@ toc: true
 toc_label: "Table of Contents"
 toc_icon: "bookmark"
 ---
-# A Complete Guide to CNN for Sentence Classification with PyTorch
 [![Run in Google Colab](https://img.shields.io/badge/Colab-Run_in_Google_Colab-blue?logo=Google&logoColor=FDBA18)](https://colab.research.google.com/drive/1b7aZamr065WPuLpq9C4RU6irB59gbX_K)
 
 ## Introduction
@@ -839,17 +838,13 @@ predict("I don't like the ending.")
 
 ## 6. Advice for Practitioners
 
-In [***A Sensitivity Analysis of (and Practitioners' Guide to) Convolutional Neural Networks for Sentence Classification***](https://arxiv.org/abs/1510.03820) (Zhang, 2015), the authors conducted a sensitivity analysis of the above CNN architecture by running it many different sets of hyperparameters. Based on main empirical findings of the research, below are some advice for practioners to choose hyperparameters when applying this architecture for sentence classification tasks:
+In [A Sensitivity Analysis of (and Practitioners' Guide to) Convolutional Neural Networks for Sentence Classification](https://arxiv.org/abs/1510.03820) (Zhang, 2015), the authors conducted a sensitivity analysis of the above CNN architecture by running it many different sets of hyperparameters. Based on main empirical findings of the research, below are some advice for practioners to choose hyperparameters when applying this architecture for sentence classification tasks:
 - **Input word vectors:** Using pretrained word vectors such as word2vec, Glove (or fastText in our implementation) yields much better results than using one-hot vectors or randomly initialized vectors.
 - **Filter region size** can have a large effect on performance, and should be tuned. A reasonable range might be 1~10. For example, using `filter_size=[7]` and `num_filters=[400]` yields the best result in the MR dataset.
 - **Number of feature maps:** try values from 100 to 600 for each filter region size.
 - **Activation funtions:** ReLu and tanh are the best candidates.
 - **Pooling:** Use 1-max pooling.
 - **Regularization:** When increasing number of feature maps, try imposing stronger regularization, e.g. a dropout rate larger than 0.5.
-
-
-
-
 
 ## Bonus: Skorch: A Scikit-like Library for PyTorch Modules 
 
@@ -902,15 +897,6 @@ net = NeuralNetClassifier(
     device=device
 )
 ```
-
-    Requirement already satisfied: skorch in /usr/local/lib/python3.6/dist-packages (0.7.0)
-    Requirement already satisfied: scikit-learn>=0.19.1 in /usr/local/lib/python3.6/dist-packages (from skorch) (0.22.1)
-    Requirement already satisfied: numpy>=1.13.3 in /usr/local/lib/python3.6/dist-packages (from skorch) (1.17.5)
-    Requirement already satisfied: tabulate>=0.7.7 in /usr/local/lib/python3.6/dist-packages (from skorch) (0.8.6)
-    Requirement already satisfied: scipy>=1.1.0 in /usr/local/lib/python3.6/dist-packages (from skorch) (1.4.1)
-    Requirement already satisfied: tqdm>=4.14.0 in /usr/local/lib/python3.6/dist-packages (from skorch) (4.28.1)
-    Requirement already satisfied: joblib>=0.11 in /usr/local/lib/python3.6/dist-packages (from scikit-learn>=0.19.1->skorch) (0.14.1)
-    
 
 `skorch` also prints training results in a very nice table. My training loop in section 3 is inspired by this format. When model (checkpoints) are saved, you can see the `+` sign in column `cp`.
 
