@@ -385,7 +385,7 @@ For simplicity, the model above has very small configurations. The final model w
 |num filters         |(100, 100, 100)  |
 |activation          |ReLU             |
 |pooling             |1-max pooling    |
-|dropout rate        |0.5              |{: .align-center}
+|dropout rate        |0.5              |
 
 
 ```python
@@ -665,7 +665,7 @@ We will experiment with all 3 variations and compare their performance. Below is
 |:----------------|:-------------:|:-----------:|
 |CNN-rand         |76.1           |74.2         |
 |CNN-static       |81.0           |82.7         |
-|CNN-non-static   |81.5           |84.4         |{: .align-center}
+|CNN-non-static   |81.5           |84.4         |
 
 Randomness could cause the difference in the results. I think the reason for the improvement in our results is that we used fastText pretrained vectors, which are of higher quality than word2vec vectors that the author used.
 
