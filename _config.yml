@@ -16,7 +16,7 @@ minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt"
 
 # Site Settings
 locale                   : "en-US"
-title                    : "@chriskhanhtran" # "Site Title"
+title                    : "Chris Tran" # "Site Title"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
 name                     : "Chris Tran"
@@ -109,7 +109,7 @@ analytics:
 author:
   name             : "Chris Tran"
   avatar           : "/assets/images/profile-photo.png"
-  bio              : "<i>A learner,<br>a runner,<br>and a stargazer.</i>"
+  bio              : "<i>A learner,<br>a runner,<br> a stargazer.</i>"
   location         :
   email            : 
   links:
