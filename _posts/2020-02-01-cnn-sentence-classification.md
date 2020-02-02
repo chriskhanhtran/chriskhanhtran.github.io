@@ -12,6 +12,7 @@ header:
   image: https://images.unsplash.com/photo-1457369804613-52c61a468e7d?ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80
   teaser: https://images.unsplash.com/photo-1457369804613-52c61a468e7d?ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80
 mathjax: true
+excerpt: "Convolutional Neural Networks (CNN) were originally invented for computer vision (CV) and now are the building block of state-of-the-art CV models. One of the earliest applications of CNN in Natural Language Processing (NLP) was introduced in the paper Convolutional Neural Networks for Sentence Classification (Kim, 2014)."
 
 toc: true
 toc_label: "Table of Contents"
