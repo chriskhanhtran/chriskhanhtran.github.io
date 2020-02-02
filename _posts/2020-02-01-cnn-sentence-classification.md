@@ -17,6 +17,8 @@ toc: true
 toc_label: "Table of Contents"
 toc_icon: "bookmark"
 ---
+<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
 [![Run in Google Colab](https://img.shields.io/badge/Colab-Run_in_Google_Colab-blue?logo=Google&logoColor=FDBA18)](https://colab.research.google.com/drive/1b7aZamr065WPuLpq9C4RU6irB59gbX_K)
 
 ## Introduction
