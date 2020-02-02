@@ -149,7 +149,7 @@ To prepare our text data for training, first we need to tokenize our sentences a
 
 ***So, what is an embedding layer?***
 
-An embedding layer serves as a look-up table which take word indexes in the vocabulary as input and output word vectors. Hence, the embedding layer has shape $(N, d)$ where $N$ is the size of the vocabulary and $d$ is the embedding dimension. In order to fine-tune pretrained word vectors, we need to create an embedding layer in our `nn.Module` class. Our input to the model will then be `input_ids`, which is the tokens' index in the vocabulary.
+An embedding layer serves as a look-up table which take word indexes in the vocabulary as input and output word vectors. Hence, the embedding layer has shape $$(N, d)$$ where $$N$$ is the size of the vocabulary and $$d$$ is the embedding dimension. In order to fine-tune pretrained word vectors, we need to create an embedding layer in our `nn.Module` class. Our input to the model will then be `input_ids`, which is the tokens' index in the vocabulary.
 
 ### 2.1. Tokenize
 
