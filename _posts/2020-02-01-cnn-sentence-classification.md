@@ -17,11 +17,7 @@ toc: true
 toc_label: "Table of Contents"
 toc_icon: "bookmark"
 ---
-<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
-<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
 [![Run in Google Colab](https://img.shields.io/badge/Colab-Run_in_Google_Colab-blue?logo=Google&logoColor=FDBA18)](https://colab.research.google.com/drive/1b7aZamr065WPuLpq9C4RU6irB59gbX_K)
-
-## Introduction
 
 **Convolutional Neural Networks (CNN)** were originally invented for computer vision (CV) and now are the building block of state-of-the-art CV models. One of the earliest applications of CNN in Natural Language Processing (NLP) was introduced in the paper ***Convolutional Neural Networks for Sentence Classification*** (Kim, 2014). With the same idea as in computer vision, CNN model is used as an feature extractor that encodes semantic features of sentences before these features are fed to a classifier.
 
@@ -354,15 +350,15 @@ filter_sizes = [2, 3, 4]
 num_filters = [2, 2, 2]
 ```
 
-Suppose that we are classifying the sentence "***I like this movie very much!***" ($N = 7$ tokens) and the dimensionality of word vectors is $d=5$. After applying the embedding layer on the input token ids, the sample sentence is presented as a 2D tensor with shape (7, 5) like an image.
+Suppose that we are classifying the sentence "***I like this movie very much!***" ($$N = 7$$ tokens) and the dimensionality of word vectors is $$d=5$$. After applying the embedding layer on the input token ids, the sample sentence is presented as a 2D tensor with shape (7, 5) like an image.
 
 $$\mathrm{x_{emb}} \quad \in \mathbb{R}^{7 \times 5}$$
 
-We then use 1-dimesional convolution to extract features from the sentence. In this example, we have 6 filters in total, and each filter has shape $(f_i, d)$ where $f_i$ is the filter size for $i \in \{1,...,6\}$. Each filter will then scan over $\mathrm{x_{emb}}$ and returns a feature map:
+We then use 1-dimesional convolution to extract features from the sentence. In this example, we have 6 filters in total, and each filter has shape $$(f_i, d)$$ where $$f_i$$ is the filter size for $$i \in \{1,...,6\}$$. Each filter will then scan over $$\mathrm{x_{emb}}$$ and returns a feature map:
 
 $$\mathrm{x_{conv_ i} = Conv1D(x_{emb})} \quad \in \mathbb{R}^{N-f_i+1}$$
 
-Next, we apply the ReLU activation to $\mathrm{x_{conv_{i}}}$ and use max-over-time-pooling to reduce each feature map to a single scalar. Then we concatenate these scalars into the final feature vector which will be fed to a fully connected layer to compute the final scores for our classes (logits).
+Next, we apply the ReLU activation to $$\mathrm{x_{conv_{i}}}$$ and use max-over-time-pooling to reduce each feature map to a single scalar. Then we concatenate these scalars into the final feature vector which will be fed to a fully connected layer to compute the final scores for our classes (logits).
 
 $$\mathrm{x_{pool_i} = MaxPool(ReLU(x_{conv_i}))} \quad \in \mathbb{R}$$
 
@@ -370,7 +366,7 @@ $$\mathrm{x_{fc} = \texttt{concat}(x_{pool_i})} \quad \in \mathbb{R}^6$$
 
 The idea here is that each filter will capture different semantic signals in the sentence (ie. happiness, humor, politic, anger...) and max-pooling will record only the strongest signal over the sentence. This logic makes sense because humans also perceive the sentiment of a sentence based on its strongest word/signal.
 
-Finally, we use a fully connected layer with the weight matrix $\mathbf{W_{fc}} \in \mathbb{R}^{2 \times 6} $ and dropout to compute $\mathrm{logits}$, which is a vector of length 2 that keeps the scores for 2 classes.
+Finally, we use a fully connected layer with the weight matrix $$\mathbf{W_{fc}} \in \mathbb{R}^{2 \times 6} $$ and dropout to compute $$\mathrm{logits}$$, which is a vector of length 2 that keeps the scores for 2 classes.
 
 $$\mathrm{logits = Dropout(\mathbf{W_{fc}}x_{fc})}  \in \mathbb{R}^2$$
 
