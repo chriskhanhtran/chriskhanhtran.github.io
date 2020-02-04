@@ -20,11 +20,11 @@ toc_icon: "bookmark"
 ---
 [![Run in Google Colab](https://img.shields.io/badge/Colab-Run_in_Google_Colab-blue?logo=Google&logoColor=FDBA18)](https://colab.research.google.com/drive/1b7aZamr065WPuLpq9C4RU6irB59gbX_K)
 
-**Convolutional Neural Networks (CNN)** were originally invented for computer vision (CV) and now are the building block of state-of-the-art CV models. One of the earliest applications of CNN in Natural Language Processing (NLP) was introduced in the paper ***Convolutional Neural Networks for Sentence Classification*** (Kim, 2014). With the same idea as in computer vision, CNN model is used as an feature extractor that encodes semantic features of sentences before these features are fed to a classifier.
+**Convolutional Neural Networks (CNN)** were originally invented for computer vision and now are the building blocks of state-of-the-art CV models. One of the earliest applications of CNN in Natural Language Processing was introduced in the paper ***Convolutional Neural Networks for Sentence Classification*** (Kim, 2014). With the same idea as in computer vision, CNN model is used as an feature extractor that encodes semantic features of sentences before these features are fed to a classifier.
 
-With only a simple one-layer CNN trained on top of pretrained word vectors and little hyperparameter tuning, the model achieves excellent results on multiple sentence-level classification tasks. CNN models are now used widely other NLP tasks such as translation or question answering as a part of a more complex architecture.
+With only a simple one-layer CNN trained on top of pretrained word vectors and little hyperparameter tuning, the model achieves excellent results on multiple sentence-level classification tasks. CNN models are now used widely in other NLP tasks such as translation and question answering as a part of a more complex architecture.
 
-When implementing the original paper (Kim, 2014) in PyTorch, I needed to put many pieces together to complete this project. This article serves as a complete guide to CNN for sentence classification tasks accompnied with advice for practioners. It will cover:
+When implementing the original paper (Kim, 2014) in PyTorch, I needed to put many pieces together to complete the project. This article serves as a complete guide to CNN for sentence classification tasks accompanied with advice for practioners. It will cover:
 - Tokenizing and building vocabuilary from text data
 - Loading pretrained fastText word vectors and creating embedding layer for fine-tuning
 - Building and training CNN model with PyTorch
@@ -93,7 +93,7 @@ labels = np.array([0]*len(neg_text) + [1]*len(pos_text))
 
 ### 1.3. Download fastText Word Vectors
 
-The pretrained word vectors used in the original paper is *word2vec* (Mikolov et al., 2013) trained on 100 billion tokens of Google News. In this tutorial, we will use [*fastText* pretrained word vectors](https://fasttext.cc/docs/en/english-vectors.html) (Mikolov et al., 2017), trained on 600 billion tokens on Common Crawl. *fastText* is an upgraded version of *word2vec* and outperform other state-of-the-art methods by a large margin.
+The pretrained word vectors used in the original paper were trained by *word2vec* (Mikolov et al., 2013) on 100 billion tokens of Google News. In this tutorial, we will use [*fastText* pretrained word vectors](https://fasttext.cc/docs/en/english-vectors.html) (Mikolov et al., 2017), trained on 600 billion tokens on Common Crawl. *fastText* is an upgraded version of *word2vec* and outperforms other state-of-the-art methods by a large margin.
 
 The code below will download fastText pretrained vectors. Using Google Colab, the running time is approximately 3min 30s.
 
@@ -150,11 +150,11 @@ To prepare our text data for training, first we need to tokenize our sentences a
 
 ***So, what is an embedding layer?***
 
-An embedding layer serves as a look-up table which take word indexes in the vocabulary as input and output word vectors. Hence, the embedding layer has shape $$(N, d)$$ where $$N$$ is the size of the vocabulary and $$d$$ is the embedding dimension. In order to fine-tune pretrained word vectors, we need to create an embedding layer in our `nn.Module` class. Our input to the model will then be `input_ids`, which is the tokens' index in the vocabulary.
+An embedding layer serves as a look-up table which takes words' indexes in the vocabulary as input and output word vectors. Hence, the embedding layer has shape $$(N, d)$$ where $$N$$ is the size of the vocabulary and $$d$$ is the embedding dimension. In order to fine-tune pretrained word vectors, we need to create an embedding layer in our `nn.Module` class. Our input to the model will then be `input_ids`, which is tokens' indexes in the vocabulary.
 
 ### 2.1. Tokenize
 
-The function `tokenize` will tokenize our sentences, build a vocabulary and fine the maximum sentence length. The function `encode` will take in the outputs of `tokenize`, perform sentence padding and return `input_ids` as a numpy array.
+The function `tokenize` will tokenize our sentences, build a vocabulary and find the maximum sentence length. The function `encode` will take outputs of `tokenize` as inputs, perform sentence padding and return `input_ids` as a numpy array.
 
 
 ```python
@@ -223,7 +223,7 @@ def encode(tokenized_texts, word2idx, max_len):
 
 ### 2.2. Load Pretrained Vectors
 
-We will load the pretrain vectors for each tokens in our vocabulary. For tokens with no pretraiend vectors, we will initialize random word vectors with the same length and variance.
+We will load the pretrained vectors for each token in our vocabulary. For tokens with no pretraiend vectors, we will initialize random word vectors with the same dimension and variance.
 
 
 ```python
@@ -286,7 +286,7 @@ embeddings = torch.tensor(embeddings)
 
 ### 2.3. Create PyTorch DataLoader
 
-We will create an iterator for our dataset using the torch DataLoader class. This will help save on memory during training and boost the training speed. The batch_size used in the paper is 50.
+We will create an iterator for our dataset using the torch DataLoader class. This will help save on memory during training and boost the training speed. The batch size used in the paper is 50.
 
 
 ```python
@@ -356,19 +356,19 @@ Suppose that we are classifying the sentence "***I like this movie very much!***
 
 $$\mathrm{x_{emb}} \quad \in \mathbb{R}^{7 \times 5}$$
 
-We then use 1-dimesional convolution to extract features from the sentence. In this example, we have 6 filters in total, and each filter has shape $$(f_i, d)$$ where $$f_i$$ is the filter size for $$i \in \{1,...,6\}$$. Each filter will then scan over $$\mathrm{x_{emb}}$$ and returns a feature map:
+We then use 1-dimesional convolution to extract features from the sentence. In this example, we have 6 filters in total, and each filter has shape $$(f_i, d)$$ where $$f_i$$ is the filter size for $$i \in \{1,...,6\}$$. Each filter will then scan over $$\mathrm{x_{emb}}$$ and return a feature map:
 
 $$\mathrm{x_{conv_ i} = Conv1D(x_{emb})} \quad \in \mathbb{R}^{N-f_i+1}$$
 
-Next, we apply the ReLU activation to $$\mathrm{x_{conv_{i}}}$$ and use max-over-time-pooling to reduce each feature map to a single scalar. Then we concatenate these scalars into the final feature vector which will be fed to a fully connected layer to compute the final scores for our classes (logits).
+Next, we apply the ReLU activation to $$\mathrm{x_{conv_{i}}}$$ and use max-over-time-pooling to reduce each feature map to a single scalar. Then we concatenate these scalars into a vector which will be fed to a fully connected layer to compute the final scores for our classes (logits).
 
 $$\mathrm{x_{pool_i} = MaxPool(ReLU(x_{conv_i}))} \quad \in \mathbb{R}$$
 
 $$\mathrm{x_{fc} = \texttt{concat}(x_{pool_i})} \quad \in \mathbb{R}^6$$
 
-The idea here is that each filter will capture different semantic signals in the sentence (ie. happiness, humor, politic, anger...) and max-pooling will record only the strongest signal over the sentence. This logic makes sense because humans also perceive the sentiment of a sentence based on its strongest word/signal.
+The idea here is that each filter will capture different semantic signals in the sentence (e.g., happiness, humor, politics, anger...) and max-pooling will record only the strongest signal over the sentence. This logic makes sense because humans also perceive the sentiment of a sentence based on its strongest semantic signal.
 
-Finally, we use a fully connected layer with the weight matrix $$\mathbf{W_{fc}} \in \mathbb{R}^{2 \times 6} $$ and dropout to compute $$\mathrm{logits}$$, which is a vector of length 2 that keeps the scores for 2 classes.
+Finally, we use a fully connected layer with the weight matrix $$\mathbf{W_{fc}} \in \mathbb{R}^{2 \times 6} $$ and dropout to compute $$\mathrm{logits}$$, which is a vector of length 2 that keeps the scores for our two classes.
 
 $$\mathrm{logits = Dropout(\mathbf{W_{fc}}x_{fc})}  \in \mathbb{R}^2$$
 
@@ -376,7 +376,7 @@ An in-depth explanation of CNN can be found in this [article](https://cs231n.git
 
 ### 3.1. Create CNN Model
 
-For simplicity, the model above has very small configurations. The final model we'll use is much bigger but has the same architecture:
+For simplicity, the model above has very small configurations. The final model will have the same architecture but be much bigger:
 
 |Description         |Values           |
 |:------------------:|:---------------:|
@@ -658,9 +658,9 @@ def evaluate(model, val_dataloader):
 In the original paper, the author tried different variations of the model.
 - **CNN-rand**: The baseline model where the embedding layer is randomly initialized and then updated during training.
 - **CNN-static**: A model with pretrained vectors. However, the embedding layer is freezed during training.
-- **CNN-non-static**: Same as above but the embedding layers are fine-tuned during training.
+- **CNN-non-static**: Same as above but the embedding layers is fine-tuned during training.
 
-We will experiment with all 3 variations and compare their performance. Below is the report of our results and the results in the original paper.
+We will experiment with all 3 variations and compare their performance. Below is the report of our results and the original paper's results.
 
 |Model            |Kim's results  |Our results  |
 |:----------------|:-------------:|:-----------:|
@@ -844,16 +844,11 @@ In [A Sensitivity Analysis of (and Practitioners' Guide to) Convolutional Neural
 
 ## Bonus: Skorch: A Scikit-like Library for PyTorch Modules 
 
-If you find the training loop in PyTorch intimidating with a lot of steps and wonder why those steps aren't wrapped in a function like `model.fit()` and `model.predict()` in `scikit-learn` library. Actually it is something I like in PyTorch. It allows me to manipulate my codes to add extra customizations during training like gradient clipping or updating learning rates. And because I build my model and training loop block by block, when my model runs into errors, it's easier for me to navigate the bugs. However, when I need to deploy a baseline model quickly, writing an entire training loop is really a burden. It's when I come to `skorch`.
+If you find the training loop in PyTorch intimidating with a lot of steps and wonder why those steps aren't wrapped in a function like `model.fit()` and `model.predict()` in `scikit-learn` library. Actually it is something I like in PyTorch. It allows me to manipulate my codes to add extra customizations during training such as clipping gradients and updating learning rates. In addition, because I build my model and training loop block by block, when my model runs into errors, I can navigate the bugs faster. However, when I need to deploy a baseline model quickly, writing an entire training loop is really a burden. It's when I come to `skorch`.
 
-`skorch` is "a scikit-learn compatible neural network library that wraps PyTorch." There is no need to create `DataLoader` or write a training/evaluation loop. All you just need to do is defining the model and optimizer as in the code below, then a simple `net.fit(X, y)` is enough.
+`skorch` is "a scikit-learn compatible neural network library that wraps PyTorch." There is no need to create `DataLoader` or write a training/evaluation loop. All you need to do is defining the model and optimizer as in the code below, then a simple `net.fit(X, y)` is enough.
 
-`skorch` does not only make it neat and fast to train your Deep Learning models, it also provides even more powerful support. You can specify `callbacks` parameters to define early stopping and when to save your model. You can also combine `skorch` model with `scikit-learn` methods to do cross-validation and hyperparameter tuning with grid-search. Please check out the [documentation](https://skorch.readthedocs.io/en/stable/index.html#) to explore this powerful PyTorch library for Deep Learning.
-
-
-
-
-
+`skorch` does not only make it neat and fast to train your Deep Learning models, it also provides powerful support. You can specify `callbacks` parameters to define early stopping and checkpoint saving. You can also combine `skorch` model with `scikit-learn` methods to do cross-validation and hyperparameter tuning with grid-search. Please check out the [documentation](https://skorch.readthedocs.io/en/stable/index.html#) to explore more powerful functions in this library.
 
 ```python
 !pip install skorch
@@ -923,7 +918,7 @@ print(f"Training complete! Best accuracy: {valid_acc_best * 100:.2f}%")
     Training complete! Best accuracy: 83.32%
     
 
-As Deep Learning model can overfit the training data, it's important to save our model when it fits our validation data just right. After training, we can load our model from the last checkpoint to make predictions.
+As Deep Learning model can overfit training data quickly, it's important to save our model when it fits validation data just right. After training, we can load our model from the last checkpoint to make predictions.
 
 
 ```python
@@ -944,7 +939,7 @@ predict("I don't like the ending.", model=net)
 
 ## Conclusion
 
-Before the rise of huge and complicated models using Transformer architecture, a simple CNN architecture with one layer of convolution can yeild excellent performance on sentence classification tasks. The model can take advantages of unsupervise pre-training of word vectors to improve overall performance. Improvements can be made in this architecture by increasing the number of CNN layers or utilizing sub-word model (using BPE tokenizer and fastText pretrained sub-word vectors). Because of its speed, we can use the CNN model as a strong baseline model before trying more complicated models such as BERT.
+Before the rise of huge and complicated models using Transformer architecture, a simple CNN architecture with one layer of convolution can yield excellent performance on sentence classification tasks. The model can take advantages of unsupervised pre-training of word vectors to improve overall performance. Improvements can be made in this architecture by increasing the number of CNN layers or using sub-word model (using BPE tokenizer and fastText pretrained sub-word vectors). Because of its speed, we can use the CNN model as a strong baseline before trying more complicated models such as BERT.
 
 Thank you for staying with me to this point. If interested, you can check out other articles in my NLP tutorial series:
 - [Tutorial: Fine-tuning BERT for Sentiment Analysis](https://chriskhanhtran.github.io/posts/bert_for_sentiment_analysis/)
