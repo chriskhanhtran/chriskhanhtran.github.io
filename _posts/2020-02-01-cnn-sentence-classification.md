@@ -38,7 +38,7 @@ When implementing the original paper (Kim, 2014) in PyTorch, I needed to put man
 
 
 
-## 1. Set up
+## 1. Setup
 
 ### 1.1. Import Libraries
 
@@ -118,7 +118,7 @@ else:
       inflating: fastText/crawl-300d-2M.vec  
     
 
-### 1.4. Set up GPU for Training
+### 1.4. Use GPU for Training
 
 Google Colab offers free GPUs and TPUs. Since we'll be training a large neural network it's best to utilize these features.
 
