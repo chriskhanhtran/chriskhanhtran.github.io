@@ -133,7 +133,7 @@ tokenizer.save("models/roberta")
 
 Super fast! It takes only 2 minutes to train on 10 million lines.
 
-<img src="https://github.com/chriskhanhtran/spanish-bert/blob/master/train_tokenizers.gif?raw=true" width=700>
+<img src="https://github.com/chriskhanhtran/spanish-bert/blob/master/train_tokenizers.gif?raw=true" width="700">
 
 # Traing Language Model from Scratch
 
@@ -334,7 +334,7 @@ pip install tensorboard==2.1.0
 tensorboard dev upload --logdir runs
 ```
 
-<img src="https://github.com/chriskhanhtran/spanish-bert/blob/master/tensorboard-spanberta.JPG?raw=true" width=400>
+<img src="https://github.com/chriskhanhtran/spanish-bert/blob/master/tensorboard-spanberta.JPG?raw=true" width="400">
 
 *After 200k steps, the loss reached 1.8 and the perplexity reached 5.2.*
 
