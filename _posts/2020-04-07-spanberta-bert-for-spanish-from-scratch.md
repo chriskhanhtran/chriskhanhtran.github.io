@@ -190,9 +190,9 @@ with open("models/roberta/tokenizer_config.json", 'w') as fp:
 |Max Steps            | 1M        | 500K         |
 |Warmup Steps         | 10K       | 24K          |
 |Weight Decay         | 0.01      | 0.01         |
-|Adam $\epsilon$      | 1e-6      | 1e-6         |
-|Adam $\beta_1$       | 0.9       | 0.9          |
-|Adam $\beta_2$       | 0.999     | 0.98         |
+|Adam $$\epsilon$$    | 1e-6      | 1e-6         |
+|Adam $$\beta_1$$     | 0.9       | 0.9          |
+|Adam $$\beta_2$$     | 0.999     | 0.98         |
 |Gradient Clipping    | 0.0       | 0.0          |
 
 Note the batch size when training RoBERTa is 8000. Therefore, although RoBERTa-base was trained for 500K steps, its training computational cost is 16 times that of BERT-base. In the [RoBERTa paper](https://arxiv.org/pdf/1907.11692.pdf), it is shown that training with large batches improves perplexity for the masked language modeling objective, as well as end-task accuracy. Larger batch size can be obtained by tweaking `gradient_accumulation_steps`.
