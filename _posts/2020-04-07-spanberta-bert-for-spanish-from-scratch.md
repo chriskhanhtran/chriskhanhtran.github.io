@@ -1,5 +1,5 @@
 ---
-title: "SpanBERTa: How We Trained a RoBERTa Language Model for Spanish from Scratch"
+title: "SpanBERTa: How We Trained RoBERTa Language Model for Spanish from Scratch"
 date: 2020-04-07
 categories:
   - posts
