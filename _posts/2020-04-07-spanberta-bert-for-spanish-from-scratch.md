@@ -7,6 +7,7 @@ tags:
   - nlp
   - bert
   - tutorial
+mathjax: true
 toc: true
 toc_label: "Table of Contents"
 toc_icon: "bookmark"
