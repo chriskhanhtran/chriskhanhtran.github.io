@@ -19,7 +19,7 @@ header:
 
 # Introduction
 
-Self-training methods with transformer models have achieved state-of-the-art performance on most NLP tasks. However, because training them is computationally expensive, most currently available pretrained transformer models are only for English. Therefore, in order to improve performance of NLP tasks on our projects on Spanish, my team at Skim AI decided to train a **RoBERTa** language model for Spanish from scratch and call it SpanBERTa.
+Self-training methods with transformer models have achieved state-of-the-art performance on most NLP tasks. However, because training them is computationally expensive, most currently available pretrained transformer models are only for English. Therefore, to improve performance on NLP tasks in our projects on Spanish, my team at [**Skim AI**](https://skimai.com/) decided to train a **RoBERTa** language model for Spanish from scratch and call it SpanBERTa.
 
 SpanBERTa has the same size as RoBERTa-base. We followed RoBERTa's training schema to train the model on 18 GB of [OSCAR](https://traces1.inria.fr/oscar/)'s Spanish corpus in 8 days using 4 Tesla P100 GPUs.
 
