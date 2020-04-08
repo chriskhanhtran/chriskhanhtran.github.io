@@ -12,7 +12,8 @@ toc_label: "Table of Contents"
 toc_icon: "bookmark"
 excerpt: "Self-training methods with transformer models have achieved state-of-the-art performance on most NLP tasks. However, because training them is computationally expensive, most currently available pretrained transformer models are only for English."
 header:
-  teaser: "https://github.com/chriskhanhtran/spanish-bert/blob/master/header_picture.JPG?raw=true"
+  image: https://github.com/chriskhanhtran/spanish-bert/blob/master/header_picture.JPG?raw=true
+  teaser: https://github.com/chriskhanhtran/spanish-bert/blob/master/header_picture.JPG?raw=true
 
 ---
 [![Run in Google Colab](https://img.shields.io/badge/Colab-Run_in_Google_Colab-blue?logo=Google&logoColor=FDBA18)](https://colab.research.google.com/drive/1mXWYYkB9UjRdklPVSDvAcUDralmv3Pgv)
