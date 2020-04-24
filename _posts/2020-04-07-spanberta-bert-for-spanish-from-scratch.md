@@ -206,21 +206,8 @@ We will train our model from scratch using [`run_language_modeling.py`](https://
 
 
 ```python
-!wget -c https://raw.githubusercontent.com/huggingface/transformers/master/examples/run_language_modeling.py
-```
-
-    --2020-04-06 15:59:34--  https://raw.githubusercontent.com/huggingface/transformers/master/examples/run_language_modeling.py
-    Resolving raw.githubusercontent.com (raw.githubusercontent.com)... 151.101.0.133, 151.101.64.133, 151.101.128.133, ...
-    Connecting to raw.githubusercontent.com (raw.githubusercontent.com)|151.101.0.133|:443... connected.
-    HTTP request sent, awaiting response... 200 OK
-    Length: 34328 (34K) [text/plain]
-    Saving to: ‘run_language_modeling.py’
-    
-    run_language_modeli 100%[===================>]  33.52K  --.-KB/s    in 0s      
-    
-    2020-04-06 15:59:35 (78.3 MB/s) - ‘run_language_modeling.py’ saved [34328/34328]
-    
-    
+!wget -c https://raw.githubusercontent.com/chriskhanhtran/spanish-bert/master/run_language_modeling.py
+```   
 
 **Important Arguments**
 - `--line_by_line` Whether distinct lines of text in the dataset are to be handled as distinct sequences. If each line in your dataset is long and has ~512 tokens or more, you should use this setting. If each line is short, the default text preprocessing will concatenate all lines, tokenize them and slit tokenized outputs into blocks of 512 tokens. You can also split your datasets into small chunks and preprocess them separately. 3GB of text will take ~50 minutes to process with the default `TextDataset` class.
@@ -245,7 +232,7 @@ It's highly recommended to include model type (eg. "roberta", "bert", "gpt2" etc
 # Model paths
 MODEL_TYPE = "roberta" #@param ["roberta", "bert"]
 MODEL_DIR = "models/roberta" #@param {type: "string"}
-OUTPUT_DIR = "models/roberta/output" #@param {type: "string"
+OUTPUT_DIR = "models/roberta/output" #@param {type: "string"}
 TRAIN_PATH = "data/train.txt" #@param {type: "string"}
 EVAL_PATH = "data/dev.txt" #@param {type: "string"}
 
