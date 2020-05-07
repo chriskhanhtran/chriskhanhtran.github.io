@@ -13,10 +13,10 @@ toc_label: "Table of Contents"
 toc_icon: "bookmark"
 excerpt: "Self-training methods with transformer models have achieved state-of-the-art performance on most NLP tasks. However, because training them is computationally expensive, most currently available pretrained transformer models are only for English."
 header:
-  teaser: https://github.com/chriskhanhtran/spanish-bert/blob/master/header_picture.JPG?raw=true
+  teaser: https://github.com/chriskhanhtran/spanish-bert/blob/master/img/part1.PNG?raw=true
 
 ---
-![](https://github.com/chriskhanhtran/spanish-bert/blob/master/header_picture.JPG?raw=true)
+![](https://github.com/chriskhanhtran/spanish-bert/blob/master/img/part1.PNG?raw=true)
 
 [![Run in Google Colab](https://img.shields.io/badge/Colab-Run_in_Google_Colab-blue?logo=Google&logoColor=FDBA18)](https://colab.research.google.com/drive/1mXWYYkB9UjRdklPVSDvAcUDralmv3Pgv)
 
@@ -136,7 +136,7 @@ tokenizer.save("models/roberta")
 
 Super fast! It takes only 2 minutes to train on 10 million lines.
 
-<img src="https://github.com/chriskhanhtran/spanish-bert/blob/master/train_tokenizers.gif?raw=true" width="700">
+<img src="https://github.com/chriskhanhtran/spanish-bert/blob/master/img/train_tokenizers.gif?raw=true" width="700">
 
 # Traing Language Model from Scratch
 
@@ -324,7 +324,7 @@ pip install tensorboard==2.1.0
 tensorboard dev upload --logdir runs
 ```
 
-<img src="https://github.com/chriskhanhtran/spanish-bert/blob/master/tensorboard-spanberta.JPG?raw=true" width="400">
+<img src="https://github.com/chriskhanhtran/spanish-bert/blob/master/img/tensorboard-spanberta.JPG?raw=true" width="400">
 
 *After 200k steps, the loss reached 1.8 and the perplexity reached 5.2.*
 
