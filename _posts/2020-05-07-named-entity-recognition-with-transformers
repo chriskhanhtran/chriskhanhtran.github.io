@@ -13,10 +13,10 @@ toc_label: "Table of Contents"
 toc_icon: "bookmark"
 excerpt: "In this blog post, to really leverage the power of transformer models, we will fine-tune SpanBERTa for a named-entity recognition task."
 header:
-  teaser: https://github.com/chriskhanhtran/spanish-bert/blob/master/header_picture.JPG?raw=true
+  teaser: https://github.com/chriskhanhtran/spanish-bert/blob/master/img/part1.PNG?raw=true
 
 ---
-![](https://github.com/chriskhanhtran/spanish-bert/blob/master/header_picture.JPG?raw=true)
+![](https://github.com/chriskhanhtran/spanish-bert/blob/master/img/part1.PNG?raw=true)
 
 [![Run in Google Colab](https://img.shields.io/badge/Colab-Run_in_Google_Colab-blue?logo=Google&logoColor=FDBA18)](https://colab.research.google.com/drive/1ezuE7wC7Fa21Wu3fvzRffx2m14CAySS1#scrollTo=LhKZ3vItVBzi)
 
