@@ -20,7 +20,7 @@ header:
 
 [![Run in Google Colab](https://img.shields.io/badge/Colab-Run_in_Google_Colab-blue?logo=Google&logoColor=FDBA18)](https://colab.research.google.com/drive/1ezuE7wC7Fa21Wu3fvzRffx2m14CAySS1#scrollTo=LhKZ3vItVBzi)
 
-## Introduction
+# Introduction
 
 - [Part I: How We Trained RoBERTa Language Model for Spanish from Scratch](https://chriskhanhtran.github.io/posts/spanberta-bert-for-spanish-from-scratch/)
 
@@ -30,7 +30,7 @@ According to its definition on [Wikipedia](https://en.wikipedia.org/wiki/Named-e
 
 We will use the script [`run_ner.py`](https://github.com/huggingface/transformers/blob/master/examples/ner/run_ner.py) by Hugging Face and [CoNLL-2002 dataset](https://www.kaggle.com/nltkdata/conll-corpora) to fine-tune SpanBERTa.
 
-## Setup
+# Setup
 
 Download `transformers` and install required packages.
 
@@ -44,10 +44,10 @@ Download `transformers` and install required packages.
 %cd ..
 ```
 
-## Data
+# Data
 
 
-### 1. Download Datasets
+## 1. Download Datasets
 
 The below command will download and unzip the dataset. The files contain the train and test data for three parts of the [CoNLL-2002](https://www.clips.uantwerpen.be/conll2002/ner/) shared task:
    - esp.testa: Spanish test data for the development stage
@@ -113,7 +113,7 @@ We will only keep the word column and the named entity tag column for our train,
 !cat conll2002/esp.testb | cut -d " " -f 1,3 > test_temp.txt
 ```
 
-### 2. Preprocessing
+## 2. Preprocessing
 
 Let's define some variables that we need for further pre-processing steps and training the model:
 
@@ -147,7 +147,7 @@ The script below will split sentences longer than `MAX_LENGTH` (in terms of toke
     2020-04-22 23:02:31.168967: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcudart.so.10.1
     
 
-### 3. Labels
+## 3. Labels
 
 In CoNLL-2002/2003 datasets, there are have 9 classes of NER tags:
 
@@ -168,7 +168,7 @@ If your dataset has different labels or more labels than CoNLL-2002/2003 dataset
 !cat train.txt dev.txt test.txt | cut -d " " -f 2 | grep -v "^$"| sort | uniq > labels.txt
 ```
 
-## Fine-tuning Model
+# Fine-tuning Model
 
 
 These are the example scripts from `transformers`'s repo that we will use to fine-tune our model for NER. After 04/21/2020, Hugging Face has updated their example scripts to use a new `Trainer` class. To avoid any future conflict, let's use the version before they made these updates.
@@ -341,7 +341,7 @@ print(classification_report(np.concatenate(y_true), np.concatenate(y_pred)))
 
 From above reports, our model has a good performance in predicting person, location and organization. We will need more data for `MISC` entities to improve our model's performance on these entities.
 
-## Pipeline 
+# Pipeline 
 
 After fine-tuning our models, we can share them with the community by following the tutorial in this [page](https://huggingface.co/transformers/model_sharing.html). Now we can start loading the fine-tuned model from Hugging Face's server and use it to predict named entities in Spanish documents.
 
@@ -385,7 +385,7 @@ ner_model(sequence)
 
 Looks great! The fine-tuned model successfully recognizes all entities in our example, and even recognizes "corona virus."
 
-## Conclusion
+# Conclusion
 
 Named-entity recognition can help us quickly extract important information from texts. Therefore, its application in business can have a direct impact on improving human's productivity in reading contracts and documents. However, it is a challenging NLP task because NER requires accurate classification at the word level, making simple approaches such as bag-of-word impossible to deal with this task.
 
