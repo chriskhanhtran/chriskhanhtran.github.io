@@ -13,15 +13,16 @@ NumPy implementation of forward and backward pass of each layer in a convolution
 
 [![View on GitHub](https://img.shields.io/badge/GitHub-View_on_GitHub-blue?logo=GitHub)](https://github.com/chriskhanhtran/CS231n-CV)
 
-[NumPy Implementations of CNN](https://github.com/chriskhanhtran/CS231n-CV/blob/master/assignment2/cs231n/layers.py): Fully-connected Layer, Batchnorm, Layernorm, Dropout, Convolution, Maxpool.
+**Selective Topics:**
+- [NumPy Implementations of CNN](https://github.com/chriskhanhtran/CS231n-CV/blob/master/assignment2/cs231n/layers.py): Fully-connected Layer, Batchnorm, Layernorm, Dropout, Convolution, Maxpool.
 
-[Image Captioning with LSTMs](https://github.com/chriskhanhtran/CS231n-CV/blob/master/assignment3/LSTM_Captioning.ipynb)
+- [Image Captioning with LSTMs](https://github.com/chriskhanhtran/CS231n-CV/blob/master/assignment3/LSTM_Captioning.ipynb)
 
-[Saliency Maps, Deep Dream, Fooling Images](https://github.com/chriskhanhtran/CS231n-CV/blob/master/assignment3/NetworkVisualization-PyTorch.ipynb)
+- [Saliency Maps, Deep Dream, Fooling Images](https://github.com/chriskhanhtran/CS231n-CV/blob/master/assignment3/NetworkVisualization-PyTorch.ipynb)
 
-[Style Transfer](https://github.com/chriskhanhtran/CS231n-CV/blob/master/assignment3/StyleTransfer-PyTorch.ipynb)
+- [Style Transfer](https://github.com/chriskhanhtran/CS231n-CV/blob/master/assignment3/StyleTransfer-PyTorch.ipynb)
 
-[Generative Adversarial Networks (GANs)](https://github.com/chriskhanhtran/CS231n-CV/blob/master/assignment3/Generative_Adversarial_Networks_PyTorch.ipynb)
+- [Generative Adversarial Networks (GANs)](https://github.com/chriskhanhtran/CS231n-CV/blob/master/assignment3/Generative_Adversarial_Networks_PyTorch.ipynb)
 
 ---
 ## Natural Language Processing
@@ -33,7 +34,7 @@ A series of published articles with GitHub repository about my research and work
 - [SpanBERTa: How We Trained RoBERTa Language Model for Spanish from Scratch](https://chriskhanhtran.github.io/posts/named-entity-recognition-with-transformers/)
 - [Named Entity Recognition with Transformers](https://chriskhanhtran.github.io/posts/spanberta-bert-for-spanish-from-scratch/)
 
-<img src="https://github.com/chriskhanhtran/spanish-bert/blob/master/img/part2.PNG" width="580">{: .align-center}
+<img src="https://raw.githubusercontent.com/chriskhanhtran/spanish-bert/master/img/part2.PNG" width="580">{: .align-center}
 
 ### CS224n: Natural Language Processing with Deep Learning
 My complete implementation of assignments and projects in [***CS224n: Natural Language Processing with Deep Learning***](http://web.stanford.edu/class/cs224n/) by Stanford (Winter, 2019).
