@@ -28,6 +28,7 @@ NumPy implementations of forward and backward pass of each layer in a convolutio
 ## Natural Language Processing
 ### Transformers for Spanish
 A series of published articles with GitHub repository about my research and work projects in Transformer and its application on Spanish.
+
 [![View on GitHub](https://img.shields.io/badge/GitHub-View_on_GitHub-blue?logo=GitHub)](https://github.com/chriskhanhtran/spanish-bert)
 
 **Articles:**
