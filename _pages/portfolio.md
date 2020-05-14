@@ -56,7 +56,7 @@ My complete implementation of assignments and projects in [***CS224n: Natural La
 The release of Google's BERT is described as the beginning of a new era in NLP. In this notebook I'll use the HuggingFace's transformers library to fine-tune pretrained BERT model for a classification task. Then I will compare BERT's performance with a baseline model, in which I use a TF-IDF vectorizer and a Naive Bayes classifier. The transformers library helps us quickly and efficiently fine-tune the state-of-the-art BERT model and yield an accuracy rate 10% higher than the baseline model.
 [Read More](https://chriskhanhtran.github.io/projects/bert-for-sentiment-analysis/){: .btn .btn--info}
 
-<img src="https://chriskhanhtran.github.io/minimal-portfolio/images/BERT-classification.png" width="580">{: .align-center}
+<img src="https://raw.githubusercontent.com/chriskhanhtran/minimal-portfolio/master/images/finetuning-bert.png" width="580">{: .align-center}
 
 ---
 ### Detect Food Trends from Facebook Posts: Co-occurence Matrix, Lift and PPMI
