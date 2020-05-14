@@ -9,7 +9,7 @@ toc_icon: "bookmark"
 ## Computer Vision
 ### CS231n: Convolutional Neural Networks for Visual Recognition
 
-NumPy implementations of forward and backward pass of each layer in a convolutional neural network have given my a deep understanding of how state-of-the-art Computer Vision architectures works under the hood. In addition, I explored the inner beauty and power of Deep Learning by implementing Style Transfer, Deep Dream, Texture Systhesis in PyTorch and generating new images with GANs.
+NumPy implementations of forward and backward pass of each layer in a convolutional neural network have given my a deep understanding of how state-of-the-art Computer Vision architectures work under the hood. In addition, I explored the inner beauty and power of Deep Learning by implementing Style Transfer, Deep Dream, Texture Systhesis in PyTorch and generating new images with GANs.
 
 [![View on GitHub](https://img.shields.io/badge/GitHub-View_on_GitHub-blue?logo=GitHub)](https://github.com/chriskhanhtran/CS231n-CV)
 
