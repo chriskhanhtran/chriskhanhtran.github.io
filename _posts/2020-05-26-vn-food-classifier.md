@@ -11,7 +11,7 @@ toc_label: "Table of Contents"
 toc_icon: "bookmark"
 excerpt: "We are going to build a world-class image classifier using the fastai library to classify 11 popular Vietnamese dishes."
 header:
-  teaser: "https://assets.vogue.com/photos/5a3aac8f0193fe386b1e3898/master/w_3000,h_2207,c_limit/vietnamese-food-holding.jpg"
+  teaser: "https://www.google.com/logos/doodles/2020/celebrating-banh-mi-6753651837108330.3-2xa.gif"
 
 ---
 
