@@ -510,7 +510,7 @@ predict(url)
 ![png](/assets/images/vn-food-classifier/output_43_2.png)
 
 
-I have built a web app for this model. Check it out at: https://vietnamese-food.herokuapp.com/.
+I have built a web app for this model. Check it out at: [![](https://img.shields.io/badge/Heroku-Open_Web_App-blue?logo=Heroku)](https://vietnamese-food.herokuapp.com/).
 
 ![](https://github.com/chriskhanhtran/vn-food-app/blob/master/img/vn-food-app.gif?raw=true)
 
