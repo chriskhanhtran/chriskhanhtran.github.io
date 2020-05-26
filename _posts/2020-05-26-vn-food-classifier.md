@@ -5,10 +5,11 @@ categories:
   - posts
 tags:
   - cv
+  - deep learning
 toc: true
 toc_label: "Table of Contents"
 toc_icon: "bookmark"
-excerpt: "Imagine that you are a world traveller and are traveling to a country famous for its street foods. Walking in a night market street full of food trucks with many delicious-looking options, you have no idea what these foods are and whether they contain any ingredient you are allergic to. You want to ask the local but you don't know the language. You wish that you have an app on your phone that allows you to take a picture of that food you want to have and will return all the information you need to know about it."
+excerpt: "We are going to build a world-class image classifier using the fastai library to classify 11 popular Vietnamese dishes."
 header:
   teaser: "https://assets.vogue.com/photos/5a3aac8f0193fe386b1e3898/master/w_3000,h_2207,c_limit/vietnamese-food-holding.jpg"
 
@@ -89,7 +90,7 @@ data.show_batch(rows=3, figsize=(7, 6))
 ```
 
 
-![png](vn-food-classifier/output_12_0.png)
+![png](/assets/images/vn-food-classifier/output_12_0.png)
 
 
 The dataset has a total of 11 classes. They are:
@@ -298,7 +299,7 @@ learn.lr_find()
 learn.recorder.plot()
 ```
 
-![png](vn-food-classifier/output_24_2.png)
+![png](/assets/images/vn-food-classifier/output_24_2.png)
 
 
 When finetuning the model at state 2, we will use different learning rates for different layers. The top layers will be update at greater rates than the bottom layers. As a rule of thumb, we use learning rates between (a, b), in which:
@@ -404,7 +405,7 @@ losses, idxs = interp.top_losses()
 interp.plot_top_losses(9, figsize=(15,11))
 ```
 
-![png](vn-food-classifier/output_31_1.png)
+![png](/assets/images/vn-food-classifier/output_31_1.png)
 
 
 The confusion matrix below will us a big picture of which pair of dishes make our model confused. The number of wrong predictions are quite low.
@@ -415,7 +416,7 @@ interp.plot_confusion_matrix(figsize=(12,12), dpi=60)
 ```
 
 
-![png](vn-food-classifier/output_33_0.png)
+![png](/assets/images/vn-food-classifier/output_33_0.png)
 
 
 ```python
@@ -506,7 +507,7 @@ predict(url)
 
 
 
-![png](vn-food-classifier/output_43_2.png)
+![png](/assets/images/vn-food-classifier/output_43_2.png)
 
 
 I have built a web app for this model. Check it out at: https://vietnamese-food.herokuapp.com/.
