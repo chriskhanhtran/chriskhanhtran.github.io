@@ -7,6 +7,7 @@ tags:
   - nlp
   - bert
   - deep learning
+mathjax: true
 toc: true
 toc_label: "Table of Contents"
 toc_icon: "bookmark"
@@ -36,9 +37,9 @@ In this section we will explore the architecture of our extractive summarization
 
 ![](https://github.com/chriskhanhtran/minimal-portfolio/blob/master/images/bertsum.jpeg?raw=true)
 
-*Figure 1: The overview architecture of BERTSUM*
+*The overview architecture of BERTSUM*
 
-Our BERT encoder is the pretrained BERT-base encoder from the masked language modeling task ([Devlin et at., 2018](https://github.com/google-research/bert)). The task of extractive summarization is a binary classification problem at the sentence level. We want to assign each sentence a label $y_i \in \{0, 1\}$ indicating whether the sentence should be included in the final summary. Therefore, we need to add a token `[CLS]` before each sentence. After we run a forward pass through the encoder, the last hidden layer of these `[CLS]` tokens will be used as the representions for our sentences.
+Our BERT encoder is the pretrained BERT-base encoder from the masked language modeling task ([Devlin et at., 2018](https://github.com/google-research/bert)). The task of extractive summarization is a binary classification problem at the sentence level. We want to assign each sentence a label $$y_i \in \{0, 1\}$$ indicating whether the sentence should be included in the final summary. Therefore, we need to add a token `[CLS]` before each sentence. After we run a forward pass through the encoder, the last hidden layer of these `[CLS]` tokens will be used as the representions for our sentences.
 
 ### Summarization Classifier
 
@@ -62,7 +63,7 @@ Despite being 40% smaller than BERT-base, DistilBERT has the same training losse
 | distilbert | 42.84   | 20.04    | 39.31   | 925 ms          | 310 MB | 77.4 M   |
 | mobilebert | 40.59   | 17.98    | 36.99   | 609 ms          | 128 MB | 30.8 M   |
 
-\**Average running time of a forward pass on a standard Google Colab notebook*
+\**Average running time of a forward pass on a single GPU on a standard Google Colab notebook*
 
 Being 45% faster, DistilBERT have almost the same performance as BERT-base. MobileBERT retains 94% performance of BERT-base, while being 4x smaller than BERT-base and 2.5x smaller than DistilBERT. In the MobileBERT paper, it's shown that MobileBERT significantly outperforms DistilBERT on SQuAD v1.1. However, it's not the case for extractive summarization. But this is still an impressive result for MobileBERT with a disk size of only 128 MB.
 
