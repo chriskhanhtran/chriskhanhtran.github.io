@@ -74,6 +74,8 @@ All pretrained checkpoints, training details and setup instruction can be found 
 
 [![](https://img.shields.io/badge/Heroku-Open_Web_App-blue?logo=Heroku)](https://extractive-summarization.herokuapp.com/)
 
+![](https://github.com/chriskhanhtran/minimal-portfolio/blob/master/images/bertsum.gif?raw=true)
+
 **Code:**
 
 [![](https://img.shields.io/badge/Colab-Run_in_Google_Colab-blue?logo=Google&logoColor=FDBA18)](https://colab.research.google.com/drive/1hwpYC-AU6C_nwuM_N5ynOShXIRGv-U51#scrollTo=KizhzOxVOjaN)
