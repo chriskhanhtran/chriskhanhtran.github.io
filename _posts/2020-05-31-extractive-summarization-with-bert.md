@@ -11,7 +11,7 @@ mathjax: true
 toc: true
 toc_label: "Table of Contents"
 toc_icon: "bookmark"
-excerpt: "In an effort to make BERTSUM (Liu et al., 2019) lighter and faster for low-resource devices, I fine-tuned DistilBERT (Sanh et al., 2019) and MobileBERT (Sun et al., 2019), two lite versions of BERT on CNN/DailyMail dataset."
+excerpt: "In an effort to make BERTSUM lighter and faster for low-resource devices, I fine-tuned DistilBERT and MobileBERT, two lite versions of BERT on CNN/DailyMail dataset."
 header:
   teaser: "https://images.unsplash.com/photo-1504711434969-e33886168f5c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80"
 
@@ -21,13 +21,13 @@ header:
 
 ## 1. Introduction
 
-Summarization has long been a challenge in Natural Language Processing. To generate a short version of a document while retaining its most inportant information, we need a model capable of accurately extracting the key points while avoiding repetitive information. Fortunately, recent works in NLP such as Transformer models and language model pretraining have advanced the state-of-the-art in summarization.
+Summarization has long been a challenge in Natural Language Processing. To generate a short version of a document while retaining its most important information, we need a model capable of accurately extracting the key points while avoiding repetitive information. Fortunately, recent works in NLP such as Transformer models and language model pretraining have advanced the state-of-the-art in summarization.
 
 In this article, we will explore BERTSUM, a simple variant of BERT, for extractive summarization from [Text Summarization with Pretrained Encoders](https://arxiv.org/abs/1908.08345) (Liu et al., 2019). Then, in an effort to make extractive summarization even faster and smaller for low-resource devices, we will fine-tune DistilBERT ([Sanh et al., 2019](https://arxiv.org/abs/1910.01108)) and MobileBERT ([Sun et al., 2019](https://arxiv.org/abs/2004.02984)), two recent lite versions of BERT, and discuss our findings.
 
 ## 2. Extractive Summarization
 
-There are two type of summarization: *abstractive* and *extractive summarization*. Abstractive summarization basically means rewriting key points while extractive summarization generates summary by copying directly the most important spans/sentences from a document.
+There are two types of summarization: *abstractive* and *extractive summarization*. Abstractive summarization basically means rewriting key points while extractive summarization generates summary by copying directly the most important spans/sentences from a document.
 
 Abstractive summarization is more challenging for humans, and also more computationally expensive for machines. However, which summaration is better depends on the purpose of the end user. If you were writing an essay, abstractive summaration might be a better choice. On the other hand, if you were doing some research and needed to get a quick summary of what you were reading, extractive summarization would be more helpful for the task.
 
@@ -43,7 +43,7 @@ Our BERT encoder is the pretrained BERT-base encoder from the masked language mo
 
 ### Summarization Classifier
 
-After getting the vector representation of each sentence, we can use a simple feed forward layer as our classifier to return a score for each sentence. In the paper, the author experimented with a simple linear classifier, a Recurrent Neural Network and a small Transformer model with 3 layers. The Transformer classifier yields the best results, showing that inter-sentence interactions though self-attention mechanism is important in selecting the most important sentences.
+After getting the vector representation of each sentence, we can use a simple feed forward layer as our classifier to return a score for each sentence. In the paper, the author experimented with a simple linear classifier, a Recurrent Neural Network and a small Transformer model with 3 layers. The Transformer classifier yields the best results, showing that inter-sentence interactions through self-attention mechanism is important in selecting the most important sentences.
 
 So in the encoder, we learn the interactions among tokens in our document while in the summarization classifier, we learn the interactions among sentences.
 
@@ -51,7 +51,7 @@ So in the encoder, we learn the interactions among tokens in our document while 
 
 Transformer models achieve state-of-the-art performance in most NLP bechmarks; however, training and making predictions from them are computationally expensive. In an effort to make summarization lighter and faster to be deployed on low-resource devices, I have modified the [source codes](https://github.com/nlpyang/PreSumm) provided by the authors of BERTSUM to replace the BERT encoder with DistilBERT and MobileBERT. The summary layers are kept unchaged.
 
-Here are training losses of these 3 variants: [Tensorboard](https://tensorboard.dev/experiment/Ly7CRURRSOuPBlZADaqBlQ/#scalars)
+Here are training losses of these 3 variants: [TensorBoard](https://tensorboard.dev/experiment/Ly7CRURRSOuPBlZADaqBlQ/#scalars)
 
 ![](https://github.com/chriskhanhtran/bert-extractive-summarization/raw/master/tensorboard.JPG)
 
