@@ -69,7 +69,7 @@ Being 45% faster, DistilBERT have almost the same performance as BERT-base. Mobi
 
 ## 4. Let's Summarize
 
-All pretrained checkpoints, training details and setup instruction can be found in [this GitHub repository](https://github.com/chriskhanhtran/bert-extractive-summarization/edit/master/README.md). In addition, I have deployed a demo of BERTSUM with the MobileBERT encoder.
+All pretrained checkpoints, training details and setup instruction can be found in [this GitHub repository](https://github.com/chriskhanhtran/bert-extractive-summarization/). In addition, I have deployed a demo of BERTSUM with the MobileBERT encoder.
 
 **Web app:** https://extractive-summarization.herokuapp.com/
 
