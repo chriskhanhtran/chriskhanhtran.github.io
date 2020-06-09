@@ -4,6 +4,8 @@ main:
     url: /portfolio/
   - title: "Blog"
     url: /posts/
+  - title: "Read"
+    url: /read/    
   - title: "Films"
     url: /films/
   - title: "About"
