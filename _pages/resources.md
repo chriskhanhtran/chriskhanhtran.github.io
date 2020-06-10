@@ -1,6 +1,6 @@
 ---
 title: Resources
-layout: collection
+layout: posts
 collection: resources
 permalink: /resources/
 ---
