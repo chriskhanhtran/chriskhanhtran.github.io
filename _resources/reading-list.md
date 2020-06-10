@@ -3,7 +3,8 @@ title: "Reading List"
 toc: true
 toc_label: "Table of Contents"
 toc_icon: "bookmark"
-excerpt: "My reading list of research papers and blog posts in Deep Learning and AI."
+header:
+  teaser: "https://images.unsplash.com/photo-1544716278-e513176f20b5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1267&q=80"
 
 ---
 My reading list of research papers, articles, books and authors in Deep Learning, Natural Language Processing and Computer Vision.
