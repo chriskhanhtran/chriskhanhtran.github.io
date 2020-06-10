@@ -1,6 +1,6 @@
 ---
-title: Projects
+title: Machine Learning Resources
 layout: collection
-collection: projects
-permalink: /projects/
+collection: resources
+permalink: /resources/
 ---
