@@ -2,7 +2,7 @@
 title: "Fine-tuning BERT for Sentiment Analysis"
 date: 2019-12-25
 categories:
-  - posts
+  - NLP
 tags:
   - nlp
   - bert
