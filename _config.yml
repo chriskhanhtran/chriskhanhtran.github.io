@@ -297,7 +297,7 @@ compress_html:
     
 # Collections
 collections:
-  projects:
+  resources:
     output: true
     permalink: /:collection/:path/
 
@@ -325,7 +325,7 @@ defaults:
 
   # _resources
   - scope:
-      path: "_resources"
+      path: ""
       type: resources
     values:
       layout: single
