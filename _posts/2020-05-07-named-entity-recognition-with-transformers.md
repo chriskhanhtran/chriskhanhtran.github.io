@@ -2,9 +2,9 @@
 title: "Named Entity Recognition with Transformers"
 date: 2020-05-07
 categories:
-  - posts
+  - NLP
 tags:
-  - nlp
+  - ner
   - bert
   - tutorial
 mathjax: true
