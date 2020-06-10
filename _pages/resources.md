@@ -1,5 +1,5 @@
 ---
-title: Machine Learning Resources
+title: Resources
 layout: collection
 collection: resources
 permalink: /resources/
