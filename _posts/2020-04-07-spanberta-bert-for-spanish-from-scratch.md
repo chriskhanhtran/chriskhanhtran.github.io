@@ -2,7 +2,7 @@
 title: "SpanBERTa: How We Trained RoBERTa Language Model for Spanish from Scratch"
 date: 2020-04-07
 categories:
-  - posts
+  - NLP
 tags:
   - nlp
   - bert
