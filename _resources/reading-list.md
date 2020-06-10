@@ -13,8 +13,8 @@ My reading list of research papers, articles, books and authors in Deep Learning
 - 👨‍🔬 = Have implemented
 - ⏳ = Reading / Want to read
 
-# Research Papers and Articles
-## Natural Language Processing
+# 1. Research Papers and Articles
+## 1.1. Natural Language Processing
 ### Sequence-to-sequence
 - ⏳ [PEGASUS: Pre-training with Extracted Gap-sentences for Abstractive Summarization](https://ai.googleblog.com/2020/06/pegasus-state-of-art-model-for.html)
 - 👨‍🔬 [PreSumm: Text Summarization with Pretrained Encoders](https://github.com/nlpyang/PreSumm)
@@ -43,7 +43,7 @@ My reading list of research papers, articles, books and authors in Deep Learning
 - ✅ [FastText: Advances in Pre-Training Distributed Word Representations](https://fasttext.cc/docs/en/english-vectors.html)
 - ✅ [Word2vec: Efficient Estimation of Word Representations in Vector Space](https://arxiv.org/pdf/1310.4546.pdf)
 
-## Computer Vision
+## 1.2. Computer Vision
 ### Object Detection and Semantic Segmentation
 
 ### Image Enhancing
@@ -54,16 +54,16 @@ My reading list of research papers, articles, books and authors in Deep Learning
 - ⏳ [Perceptual Losses for Real-Time Style Transfer and Super-Resolution](https://arxiv.org/abs/1603.08155)
 - 👨‍🔬 [Image Style Transfer Using Convolutional Neural Networks](https://www.cv-foundation.org/openaccess/content_cvpr_2016/papers/Gatys_Image_Style_Transfer_CVPR_2016_paper.pdf)
 
-## Others
+## 1.3. Others
 - ✅ [Deep Reinforcement Learning: Pong from Pixels](http://karpathy.github.io/2016/05/31/rl/)
 - 👨‍🔬 [Generative_Adversarial_Networks](https://github.com/chriskhanhtran/CS231n-CV/blob/master/assignment3/Generative_Adversarial_Networks_PyTorch.ipynb)
 
-# Books
+# 2. Books
 - ⏳ [Deep Learning](http://www.deeplearningbook.org/)
 - ⏳ [The Elements of Statistical Learning](https://web.stanford.edu/~hastie/Papers/ESLII.pdf)
 - ⏳ [The Hundred-Page Machine Learning Book](http://themlbook.com/)
 
-# Blogs
+# 3. Blogs
 - [Andrej Karpathy](http://karpathy.github.io/)
 - [Sebastian Ruder](https://ruder.io/)
 - [Chris McCormick](https://mccormickml.com/)
