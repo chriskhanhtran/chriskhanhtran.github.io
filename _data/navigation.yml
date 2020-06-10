@@ -4,11 +4,9 @@ main:
     url: /portfolio/
   - title: "Blog"
     url: /posts/
-  - title: "Read"
-    url: /read/    
+  - title: "Resources"
+    url: /resources/   
   - title: "Films"
     url: /films/
   - title: "About"
     url: /about/
-  #- title: "Projects"
-  #  url: /projects/
