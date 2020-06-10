@@ -323,14 +323,12 @@ defaults:
       share: true
       related: true
 
-  # _projects
+  # _resources
   - scope:
       path: ""
-      type: projects
+      type: resources
     values:
       layout: single
       author_profile: true
       read_time: true
-      comments: true
       share: true
-      related: true
