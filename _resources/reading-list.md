@@ -46,6 +46,11 @@ My reading list of research papers, articles, books and authors in Deep Learning
 
 ## 1.2. Computer Vision
 ### Object Detection and Semantic Segmentation
+- ⏳ [Detectron2](https://github.com/facebookresearch/detectron2)
+- ⏳ [U-Net: Convolutional Networks for Biomedical Image Segmentation](https://arxiv.org/abs/1505.04597)
+- ⏳ [Mask R-CNN](https://arxiv.org/abs/1703.06870)
+- ⏳ [Faster R-CNN: Towards Real-Time Object Detection with Region Proposal Networks](https://arxiv.org/abs/1506.01497)
+- ⏳ [Fast R-CNN](https://arxiv.org/abs/1504.08083)
 
 ### Image Enhancing
 - ✅ [ESRGAN: Enhanced Super-Resolution Generative Adversarial Networks](https://arxiv.org/abs/1809.00219)
