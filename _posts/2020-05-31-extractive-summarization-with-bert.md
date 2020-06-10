@@ -2,9 +2,9 @@
 title: "Extractive Summarization with BERT"
 date: 2020-05-31
 categories:
-  - posts
+  - NLP
 tags:
-  - nlp
+  - summarization
   - bert
   - deep learning
 mathjax: true
