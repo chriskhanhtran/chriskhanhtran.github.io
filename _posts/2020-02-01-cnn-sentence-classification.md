@@ -2,7 +2,7 @@
 title: "A Complete Guide to CNN for Sentence Classification with PyTorch"
 date: 2020-02-01
 categories:
-  - posts
+  - NLP
 tags:
   - data science
   - tutorial
