@@ -24,7 +24,7 @@ Different from other masked language modeling methods, ELECTRA is a more sample-
 
 ![](https://github.com/chriskhanhtran/spanish-bert/blob/master/img/electra-performance.JPG?raw=true)
 *ELECTRA consistently outperforms masked language model pre-training approaches.*
-
+{: .text-center}
 
 ## 2. Method
 
@@ -34,6 +34,7 @@ Instead of masking, ELECTRA corrupts the input by replacing some tokens with sam
 
 ![](https://github.com/chriskhanhtran/spanish-bert/blob/master/img/electra-overview.JPG?raw=true)
 *An overview of ELECTRA.*
+{: .text-center}
 
 Although having a generator and a discriminator like GAN, ELECTRA is not adversarial in that the generator producing corrupted tokens is trained with maximum likelihood rather than being trained to fool the discriminator.
 
@@ -46,6 +47,7 @@ With a new training objective, ELECTRA can achieve comparable performance to str
 
 ![](https://github.com/chriskhanhtran/spanish-bert/blob/master/img/electra-vs-bert.JPG?raw=true)
 *ELECTRA vs. BERT*
+{: .text-center}
 
 ## 3. Pre-train ELECTRA
 
@@ -70,7 +72,6 @@ from transformers import AutoTokenizer
 
 We will pre-train ELECTRA on a Spanish movie subtitle dataset retrieved from OpenSubtitles. This dataset is 5.4 GB is size and we will train on a small subset of ~30 MB for presentation.
 
-
 ```python
 DATA_DIR = "./data" #@param {type: "string"}
 TRAIN_SIZE = 1000000 #@param {type:"integer"}
@@ -94,7 +95,6 @@ Before building the pre-training dataset, we should make sure the corpus has the
 ### Build Pretraining Dataset
 
 We will use the tokenizer of `bert-base-multilingual-cased` to process Spanish texts.
-
 
 ```python
 # Save the pretrained WordPiece tokenizer to get `vocab.txt`
@@ -131,7 +131,6 @@ To customize the training, create a `.json` file containing the hyperparameters.
 
 Below, we set the hyperparameters to train the model for only 100 steps.
 
-
 ```python
 hparams = {
     "do_train": "true",
@@ -165,12 +164,12 @@ tensorboard dev upload --logdir data/models/electra-spanish
 ```
 
 This is the [TensorBoard](https://tensorboard.dev/experiment/AmaGBV3RTGOB1leXGGsJmw/#scalars) of training ELECTRA-small for 1 million steps in 4 days on a V100 GPU.
-![](https://github.com/chriskhanhtran/spanish-bert/blob/master/img/electra-tensorboard.JPG?raw=true)
+
+<img src="https://github.com/chriskhanhtran/spanish-bert/blob/master/img/electra-tensorboard.JPG?raw=true" width="400">{: .align-center}
 
 ## 4. Convert Tensorflow checkpoints to PyTorch format
 
 Hugging Face has [a tool](https://huggingface.co/transformers/converting_tensorflow_models.html) to convert Tensorflow checkpoints to PyTorch. However, this tool has yet been updated for ELECTRA. Fortunately, I found a GitHub repo by @lonePatient that can help us with this task.
-
 
 ```python
 !git clone https://github.com/lonePatient/electra_pytorch.git
@@ -199,7 +198,6 @@ with open(MODEL_DIR + "config.json", "w") as f:
     json.dump(config, f)
 ```
 
-
 ```python
 !python electra_pytorch/convert_electra_tf_checkpoint_to_pytorch.py \
     --tf_checkpoint_path=$MODEL_DIR \
@@ -211,7 +209,6 @@ with open(MODEL_DIR + "config.json", "w") as f:
 
 After converting the model checkpoint to PyTorch format, we can start to use our pre-trained ELECTRA model on downstream tasks with the `transformers` library.
 
-
 ```python
 import torch
 from transformers import ElectraForPreTraining, ElectraTokenizerFast
@@ -219,7 +216,6 @@ from transformers import ElectraForPreTraining, ElectraTokenizerFast
 discriminator = ElectraForPreTraining.from_pretrained(MODEL_DIR)
 tokenizer = ElectraTokenizerFast.from_pretrained(DATA_DIR, do_lower_case=False)
 ```
-
 
 ```python
 sentence = "Los pájaros están cantando" # The birds are singing
