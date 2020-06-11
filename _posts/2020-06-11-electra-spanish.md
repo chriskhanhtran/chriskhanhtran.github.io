@@ -15,7 +15,6 @@ header:
 ---
 
 [![Run in Google Colab](https://img.shields.io/badge/Colab-Run_in_Google_Colab-blue?logo=Google&logoColor=FDBA18)](https://colab.research.google.com/drive/1DiOwhRjQbtYRgFWG7e3dybcXJsZcu86l#scrollTo=YIHC6Pg66zHg)
-# Pre-train ELECTRA from Scratch for Spanish
 
 ## 1. Introduction
 
