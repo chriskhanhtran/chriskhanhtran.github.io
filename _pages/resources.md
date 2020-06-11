@@ -1,6 +1,8 @@
 ---
 title: Resources
 layout: collection
-collection: resources
 permalink: /resources/
+collection: resources
+entries_layout: grid
+classes: wide
 ---
