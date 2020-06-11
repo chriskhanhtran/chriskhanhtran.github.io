@@ -5,6 +5,4 @@ layout: posts
 author_profile: true
 ---
 
-### [Posts by Category](https://chriskhanhtran.github.io/categories/)
-
-### [Posts by Tag](https://chriskhanhtran.github.io/tags/)
+Browse [posts by category](https://chriskhanhtran.github.io/categories/) and [posts by tag](https://chriskhanhtran.github.io/tags/).
