@@ -35,8 +35,6 @@ A series of published articles with GitHub repository about my research and work
 - [SpanBERTa: How We Trained RoBERTa Language Model for Spanish from Scratch](https://chriskhanhtran.github.io/posts/named-entity-recognition-with-transformers/)
 - [Named Entity Recognition with Transformers](https://chriskhanhtran.github.io/posts/spanberta-bert-for-spanish-from-scratch/)
 
-<img src="https://raw.githubusercontent.com/chriskhanhtran/spanish-bert/master/img/part2.PNG" width="580">{: .align-center}
-
 ### CS224n: Natural Language Processing with Deep Learning
 My complete implementation of assignments and projects in [***CS224n: Natural Language Processing with Deep Learning***](http://web.stanford.edu/class/cs224n/) by Stanford (Winter, 2019).
 
@@ -54,7 +52,6 @@ My complete implementation of assignments and projects in [***CS224n: Natural La
 [![Run in Google Colab](https://img.shields.io/badge/Colab-Run_in_Google_Colab-blue?logo=Google&logoColor=FDBA18)](https://colab.research.google.com/drive/1f32gj5IYIyFipoINiC8P3DvKat-WWLUK)
 
 The release of Google's BERT is described as the beginning of a new era in NLP. In this notebook I'll use the HuggingFace's transformers library to fine-tune pretrained BERT model for a classification task. Then I will compare BERT's performance with a baseline model, in which I use a TF-IDF vectorizer and a Naive Bayes classifier. The transformers library helps us quickly and efficiently fine-tune the state-of-the-art BERT model and yield an accuracy rate 10% higher than the baseline model.
-[Read More](https://chriskhanhtran.github.io/projects/bert-for-sentiment-analysis/){: .btn .btn--info}
 
 <img src="https://raw.githubusercontent.com/chriskhanhtran/minimal-portfolio/master/images/finetuning-bert.png" width="580">{: .align-center}
 
