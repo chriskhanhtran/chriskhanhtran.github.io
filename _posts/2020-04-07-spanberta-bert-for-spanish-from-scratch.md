@@ -1,12 +1,11 @@
 ---
-title: "SpanBERTa: How We Trained RoBERTa Language Model for Spanish from Scratch"
+title: "SpanBERTa: Pre-train RoBERTa Language Model for Spanish from Scratch"
 date: 2020-04-07
 categories:
-  - NLP
+  - posts
 tags:
   - nlp
   - bert
-  - tutorial
 mathjax: true
 toc: true
 toc_label: "Table of Contents"
