@@ -1,6 +1,8 @@
 ---
 title: "Pre-train ELECTRA from Scratch for Spanish"
 date: 2020-06-11
+categories:
+  - posts
 tags:
   - nlp
   - transformer
