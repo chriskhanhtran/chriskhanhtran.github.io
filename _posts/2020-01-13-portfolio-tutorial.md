@@ -2,7 +2,7 @@
 title: "Create a Minimalism GitHub Page for Your Data Science Portfolio in 30 Minutes"
 date: 2020-01-13
 categories:
-  - Data Science
+  - posts
 tags:
   - data science
   - tutorial
@@ -10,12 +10,9 @@ tags:
 header:
   image: https://images.unsplash.com/photo-1484417894907-623942c8ee29?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1489&q=80
   teaser: https://images.unsplash.com/photo-1484417894907-623942c8ee29?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1489&q=80
-  
 toc: true
 toc_label: "Table of Contents"
 toc_icon: "bookmark"
-og_image: https://images.unsplash.com/photo-1484417894907-623942c8ee29?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1489&q=80
-
 ---
 
 In the early days of my journey in data science a year ago, I spent most of my time reading articles on Towards Data Science to create my own Data Science roadmap. The opinions are different in the knowledge one needs to acquire to become a Data Scientist and how to get there, but there is one thing in common: at a point in that journey, one should have a portfolio where she can host her Data Science projects.
