@@ -2,11 +2,11 @@
 title: "Extractive Summarization with BERT"
 date: 2020-05-31
 categories:
-  - NLP
+  - posts
 tags:
   - summarization
   - bert
-  - deep learning
+  - nlp
 mathjax: true
 toc: true
 toc_label: "Table of Contents"
