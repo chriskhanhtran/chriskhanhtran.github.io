@@ -2,7 +2,7 @@
 title: "Visual Recognition for Vietnamese Foods"
 date: 2020-05-26
 categories:
-  - CV
+  - posts
 tags:
   - cv
   - deep learning
@@ -12,7 +12,6 @@ toc_icon: "bookmark"
 excerpt: "We are going to build a world-class image classifier using the fastai library to classify 11 popular Vietnamese dishes."
 header:
   teaser: "https://www.google.com/logos/doodles/2020/celebrating-banh-mi-6753651837108330.3-2xa.gif"
-
 ---
 
 [![](https://img.shields.io/badge/GitHub-View_Repository-blue?logo=GitHub)](https://github.com/chriskhanhtran/vn-food-app)
