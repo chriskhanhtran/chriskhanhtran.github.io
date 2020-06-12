@@ -71,7 +71,7 @@ from transformers import AutoTokenizer
 
 ### Data
 
-We will pre-train ELECTRA on a Spanish movie subtitle dataset retrieved from OpenSubtitles. This dataset is 5.4 GB is size and we will train on a small subset of ~30 MB for presentation.
+We will pre-train ELECTRA on a Spanish movie subtitle dataset retrieved from OpenSubtitles. This dataset is 5.4 GB in size and we will train on a small subset of ~30 MB for presentation.
 
 ```python
 DATA_DIR = "./data" #@param {type: "string"}
