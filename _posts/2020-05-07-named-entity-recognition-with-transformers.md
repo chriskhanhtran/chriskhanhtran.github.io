@@ -2,11 +2,11 @@
 title: "Named Entity Recognition with Transformers"
 date: 2020-05-07
 categories:
-  - NLP
+  - posts
 tags:
+  - nlp
   - ner
   - bert
-  - tutorial
 mathjax: true
 toc: true
 toc_label: "Table of Contents"
