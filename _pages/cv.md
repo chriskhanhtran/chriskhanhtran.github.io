@@ -14,22 +14,30 @@ toc_icon: "bookmark"
 - LinkedIn: [linkedin.com/in/chriskhanhtran/](https://www.linkedin.com/in/chriskhanhtran/)
 
 ## 💼 Experience
-### Skim AI Technologies, Inc. *- New York, NY*
-**Machine Learning Engineering Intern (NLP),** *October 2019 – Present*
+### Skim AI Technologies, Inc.
+***Machine Learning Engineering Intern (NLP)***
+
+*October 2019 – Present, New York, NY*
+
 - Trained and deployed MobileBERT for document summarization on mobile devices, achiving 5.5x faster speed while attaining 95% of BERT-large's performance.
 -	Trained deep learning models (Transformers, CNN, RNN-LSTM) for document classification and named entity recognition tasks to extract information from legal documents, achieving 0.95 F1 score and saving client hundred hours of manual labeling.
 -	Pretrained Spanish BERT and ELECTRA models from scratch on 18 GB of Open Super-large Crawled Corpus (OSCAR) using multiple GPUs on AWS EC2 instances, achieving state-of-the-art results on Spanish benchmarks.
 - Vectorized documents with pretrained word vectors such as Word2vec, fastText and ELMo to feed classification algorithms.
 -	Researched latest NLP and CV papers on regular basis, reported findings to CTO and wrote codes to reproduce research results.
 
-### Aurubis Buffalo, Inc. - Rochester, NY
-**Data Scientist (Capstone Project),**	*February 2020 – May 2020*
+### Aurubis Buffalo, Inc.
+***Data Scientist (Capstone Project)***
+
+*February 2020 – May 2020, Rochester, NY*
+
 - Developed data preprocessing and regression pipeline to predict yield percentage from production of coils into finished products. The developed LightGBM regressor achieved highly accurate predictions with 4% MAE, improving scheduling efficiency and significantly lowering production and inventory cost.
 - Performed data labeling, data exploration, data cleaning, feature engineering on coil history, and hyperparameter tuning with cross validation to optimize accuracy of regressor.
 - Built web app to deploy developed pipeline that can quickly generate yield predictions for future production.
 
-### Tax Technologies, Inc. *-	Buffalo, NY*
-**Tax Intern,**	*March 2019 – July 2019*
+### Tax Technologies, Inc.
+***Tax Intern***
+
+*March 2019 – July 2019, Buffalo, NY*
 
 Provided technical supports to Fortune 500 clients utilizing Tax Series – TTI’s flagship product, an all-inclusive SaaS global data collection, tax compliance and provision software.
 
@@ -39,14 +47,19 @@ Provided technical supports to Fortune 500 clients utilizing Tax Series – TTI�
 - Performed application testing to determine if software worked as designed, logged technical reports and collaborated with software engineers to build enhancement update for Tax Series.
 - Proposed new changes in priority system and data visualization that improved overall efficiency of ticket support reporting.
 
-### Niagara University - Academic Success Center *- Lewiston, NY*
-**Statistics Tutor,** *August 2018 - December 2018*
+### Niagara University - Academic Success Center
+***Statistics Tutor***
+
+*August 2018 - December 2018, Lewiston, NY*
+
 - Tutored nine students in statistics, business analytics and accounting courses.
 - Helped students understand class materials, complete homework and build effective study strategies.
 - Rated Excellent in all criteria by eight out of nine students.
 
-### Business Analytics Competition & Conference 2018 @ Manhattan College *- New York, NY*
-**Data Analytics Team Leader,** *February 2018 - May 2018*
+### Business Analytics Competition & Conference 2018 @ Manhattan College
+***Data Analytics Team Leader***
+
+*February 2018 - May 2018, New York, NY*
 
 In three-month research and two-day hackathon, led a team of four students to discover insights from NYC and Boston government data sets and won runner-up prize for best research poster out of 18 participating colleges.
 
