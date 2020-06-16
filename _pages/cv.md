@@ -71,7 +71,7 @@ In three-month research and two-day hackathon, led a team of four students to di
 - Coursework: Business Analytics, Linear Models, Management Information Systems, Econometrics
 
 ## 📝 Projects and Articles
-I frequently publish articles to discuss recent research in Natural Language Processing and open-source projects applying state-of-the-art AI systems. Please visit my [blog](https://chriskhanhtran.github.io/posts/) and [portfolio](https://chriskhanhtran.github.io/portfolio/) for more details.
+I frequently publish articles to discuss recent research in Natural Language Processing and open-source projects applying state-of-the-art AI technologies. Please visit my [blog](https://chriskhanhtran.github.io/posts/) and [portfolio](https://chriskhanhtran.github.io/portfolio/) for more details.
 
 ## 🤖 Skills
 - **Programming:** Python (NumPy, Pandas, Scikit-learn, PyTorch, TensorFlow), Big Data (Spark, Hive), R, SQL, Cypher, MATLAB
