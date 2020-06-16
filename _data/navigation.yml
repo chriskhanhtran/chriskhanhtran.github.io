@@ -8,5 +8,7 @@ main:
     url: /resources/   
   - title: "Films"
     url: /films/
+  - title: "CV"
+    url: /cv/
   - title: "About"
     url: /about/
