@@ -37,13 +37,23 @@ This is my complete implementation of assignments and projects in [***CS231n: Co
 
 ---
 ## Natural Language Processing
+### Extractive Summarization with BERT
+[![Read Article](https://img.shields.io/badge/GitHub-Read_Article-blue?logo=GitHub)](https://chriskhanhtran.github.io/posts/extractive-summarization-with-bert/)
+[![Open Web App](https://img.shields.io/badge/Heroku-Open_Web_App-blue?logo=Heroku)](https://extractive-summarization.herokuapp.com/)
+[![View on GitHub](https://img.shields.io/badge/GitHub-View_on_GitHub-blue?logo=GitHub)](https://github.com/chriskhanhtran/bert-extractive-summarization)
+
+I implemented the paper [Text Summarization with Pretrained Encoders (Liu & Lapata, 2019)](https://arxiv.org/abs/1908.08345) and trained MobileBERT and DistilBERT for extractive summarization. I also built a web app demo to illustrate the usage of the model.
+
+![](https://github.com/chriskhanhtran/minimal-portfolio/raw/master/images/bertsum.gif?raw=true)
+
 ### Transformers for Spanish
 A series of published articles with GitHub repository about my research and work projects in Transformer and its application on Spanish.
 
 [![View on GitHub](https://img.shields.io/badge/GitHub-View_on_GitHub-blue?logo=GitHub)](https://github.com/chriskhanhtran/spanish-bert)
 
 **Articles:**
-- [SpanBERTa: How We Trained RoBERTa Language Model for Spanish from Scratch](https://chriskhanhtran.github.io/posts/named-entity-recognition-with-transformers/)
+- [Pre-train ELECTRA for Spanish from Scratch](https://chriskhanhtran.github.io/posts/electra-spanish/)
+- [SpanBERTa: Pre-train RoBERTa Language Model for Spanish from Scratch](https://chriskhanhtran.github.io/posts/named-entity-recognition-with-transformers/)
 - [Named Entity Recognition with Transformers](https://chriskhanhtran.github.io/posts/spanberta-bert-for-spanish-from-scratch/)
 
 ### CS224n: Natural Language Processing with Deep Learning
