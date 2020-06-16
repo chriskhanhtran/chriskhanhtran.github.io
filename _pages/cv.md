@@ -1,6 +1,9 @@
 ---
 title: "Curriculum Vitae"
 permalink: /cv/
+toc: true
+toc_label: "Table of Contents"
+toc_icon: "bookmark"
 ---
 [Download Resume](https://chriskhanhtran.github.io/pdf/resume.pdf){: .btn .btn--info}
 
