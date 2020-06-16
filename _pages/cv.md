@@ -16,9 +16,10 @@ toc_icon: "bookmark"
 ## 💼 Experience
 ### Skim AI Technologies, Inc. *- New York, NY*
 **Machine Learning Engineering Intern (NLP),** *October 2019 – Present*
-- Trained and deployed MobileBERT for document summarization on mobile devices, achiving 5.5x faster speed while attaining 95% of BERT-large’s performance.
+- Trained and deployed MobileBERT for document summarization on mobile devices, achiving 5.5x faster speed while attaining 95% of BERT-large's performance.
 -	Trained deep learning models (Transformers, CNN, RNN-LSTM) for document classification and named entity recognition tasks to extract information from legal documents, achieving 0.95 F1 score and saving client hundred hours of manual labeling.
 -	Pretrained Spanish BERT and ELECTRA models from scratch on 18 GB of Open Super-large Crawled Corpus (OSCAR) using multiple GPUs on AWS EC2 instances, achieving state-of-the-art results on Spanish benchmarks.
+- Vectorized documents with pretrained word vectors such as Word2vec, fastText and ELMo to feed classification algorithms.
 -	Researched latest NLP and CV papers on regular basis, reported findings to CTO and wrote codes to reproduce research results.
 
 ### Aurubis Buffalo, Inc. - Rochester, NY
