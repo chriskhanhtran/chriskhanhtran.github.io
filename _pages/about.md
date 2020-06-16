@@ -7,7 +7,7 @@ header:
 
 <img src="https://chriskhanhtran.github.io/assets/images/about-me-600x600.png" width="250">{: .align-center}
 
-[CV](https://chriskhanhtran.github.io/about/){: .btn .btn--info} [Portfolio](https://chriskhanhtran.github.io/portfolio/){: .btn .btn--info} [LinkedIn](https://www.linkedin.com/in/chriskhanhtran/){: .btn .btn--info}
+[Curriculum Vitae](https://chriskhanhtran.github.io/about/){: .btn .btn--info} [Portfolio](https://chriskhanhtran.github.io/portfolio/){: .btn .btn--info} [LinkedIn](https://www.linkedin.com/in/chriskhanhtran/){: .btn .btn--info}
 {: .text-center}
 
 ## Career Objectives
