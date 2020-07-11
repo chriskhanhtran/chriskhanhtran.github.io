@@ -8,7 +8,7 @@ toc_icon: "bookmark"
 ---
 *Updated: 06/15/2020*
 
-## Computer Vision
+## 📸Computer Vision
 ### Visual Recognition for Vietnamese Foods
 
 [![Open Web App](https://img.shields.io/badge/Heroku-Open_Web_App-blue?logo=Heroku)](https://vietnamese-food.herokuapp.com/)
@@ -36,7 +36,7 @@ This is my complete implementation of assignments and projects in [***CS231n: Co
 - [Generative Adversarial Networks (GANs)](https://github.com/chriskhanhtran/CS231n-CV/blob/master/assignment3/Generative_Adversarial_Networks_PyTorch.ipynb)
 
 ---
-## Natural Language Processing
+## 🎼Natural Language Processing
 ### Extractive Summarization with BERT
 [![Read Article](https://img.shields.io/badge/GitHub-Read_Article-blue?logo=GitHub)](https://chriskhanhtran.github.io/posts/extractive-summarization-with-bert/)
 [![Open Web App](https://img.shields.io/badge/Heroku-Open_Web_App-blue?logo=Heroku)](https://extractive-summarization.herokuapp.com/)
@@ -97,7 +97,7 @@ In order to predict whether a message is spam, first I vectorized text messages 
 <img src="https://chriskhanhtran.github.io/minimal-portfolio/images/detect-spam-nlp.png" width="580">{: .align-center}
 
 ---
-## Data Science
+## 📈Data Science
 ### Credit Risk Prediction Web App
 
 [![Open Web App](https://img.shields.io/badge/Heroku-Open_Web_App-blue?logo=Heroku)](http://credit-risk.herokuapp.com/)
