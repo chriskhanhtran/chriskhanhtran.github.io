@@ -11,40 +11,53 @@ header:
 My most frequently-used tools to complete Machine Learning projects.
 
 ## 1. Setup Virtual Machines
-- [Google Cloud setup and tutorial](https://github.com/cs231n/gcloud/) (cs231n): A comprehensive tutorial to set up a GCP machine for the course [CS231n](http://cs231n.stanford.edu/) by Stanford 
-- [Server setup](https://course.fast.ai/start_gcp.html) (fast.ai): Tutorials to set up virtual machines on Google Cloud, Azure, AWS.. for fast.ai courses.
+- [Google Cloud setup and tutorial](https://github.com/cs231n/gcloud/) (cs231n): A comprehensive tutorial to set up a GCP machine for [CS231n](http://cs231n.stanford.edu/) by Stanford 
+- [Server setup tutorial by fast.ai](https://course.fast.ai/start_gcp.html): Tutorials to set up virtual machines on Google Cloud, Azure, AWS... for fast.ai courses.
 - [Remote SSH with Visual Studio Code](https://code.visualstudio.com/blogs/2019/07/25/remote-ssh): A tutorial to connect to VM on VSCode with Remote SSH. It helps working on VM easy and smooth, like working locally.
 
 ## 2. Setup Work Spaces
 - [Byobu](https://www.digitalocean.com/community/tutorials/how-to-install-and-use-byobu-for-terminal-management-on-ubuntu-16-04) for Terminal Management: Byobu allows us to open multiple windows and run multiple commands within a single terminal connection. It becomes very helpful when we train a big neural network. I usually create a window for each of `htop` (for CPUs), `nvidia-smi` (for GPUs), `jupyter lab` and `tensorboard` to monitor my training process.
 - [Managing Anaconda environments](https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html): Everything we need to know to manage our conda virtual environments.
-- [Setting up a Data Science environment using WSL and Jupyter](https://towardsdatascience.com/setting-up-a-data-science-environment-using-windows-subsystem-for-linux-wsl-c4b390803dd): This includes guides to set up Windows Subsystem for Linux (WSL), install Anaconda and Jupyter on Ubuntu.
+- [Setting up a Data Science environment using WSL and Jupyter](https://towardsdatascience.com/setting-up-a-data-science-environment-using-windows-subsystem-for-linux-wsl-c4b390803dd): A guide to set up Windows Subsystem for Linux (WSL), install Anaconda and Jupyter on Ubuntu.
 - [Oh-my-zsh and agnoster theme](https://blog.joaograssi.com/windows-subsystem-for-linux-with-oh-my-zsh-conemu/): Set up a beautiful and functional theme for your terminal.
 ![](https://github.com/apodkutin/agnoster-zsh-theme/raw/customize-prompt/agnoster_customization.gif)
-- [A comprehensive YouTube tutorial](https://www.youtube.com/watch?v=N9lo_UxSkWA) to set up development environment for machine learning by Abhishek Thakur.
+- [Setting up development environment for machine learning](https://www.youtube.com/watch?v=N9lo_UxSkWA) by Abhishek Thakur: A YouTube tutorial to set up development environment for machine learning projects.
 - [Ipykernel](https://ipython.readthedocs.io/en/stable/install/kernel_install.html#kernels-for-different-environments): Create kernels for different environments so we can switch environments within Jupyter Lab/Notebook.
 
 ## 3. VSCode
-- Extensions
-- Code formatter
-- Settings
+- My favorite theme: Dracula 🧛‍♂️
+- Extensions:
+  - GitLens: GitLens supercharges the Git capabilities built into Visual Studio Code. It helps you to visualize code authorship at a glance via Git blame annotations and code lens, seamlessly navigate and explore Git repositories, gain valuable insights via powerful comparison commands, and so much more.
+  - Bracket Pair Colorizer: A customizable extension for colorizing matching brackets
+  - Code Spell Checker: Spelling checker for source code
+  - Setting Sync: Synchronize settings, snippets, themes, file icons, launch, keybindings, workspaces and extensions across multiple machines
+  - Prettier: Code formatter using prettier
+  - [Peacock](https://www.peacockcode.dev/): Subtly change the workspace color of your workspace. Ideal when you have multiple VS Code instances.
+  - RemoteSSH: Open any folder on a remote machine using SSH and take advantage of VS Code's full feature set.
+  - vscode-icons: Icons for Visual Studio Code
+- [Config code formatter](https://code.visualstudio.com/docs/python/editing#_formatting)
+- [Add vertical rulers](https://stackoverflow.com/questions/29968499/vertical-rulers-in-visual-studio-code)
 
 ## 4. Git
+- [GitHub Guides](https://guides.github.com/)
+- [Adding an existing project to GitHub using the command line](https://docs.github.com/en/github/importing-your-projects-to-github/adding-an-existing-project-to-github-using-the-command-line)
 
 ## 5. Production
-- Streamlit
-- Heroku
+- [Streamlit API](https://docs.streamlit.io/en/stable/api.html#magic-commands)
+- [Quickly Build and Deploy a Dashboard with Streamlit and Heroku](https://towardsdatascience.com/quickly-build-and-deploy-an-application-with-streamlit-988ca08c7e83)
 
 ## 5. Cheatsheet
-- Linux
-- Regular Expression
-- Markdown
-- LaTex
+- [Linux](https://files.fosswire.com/2007/08/fwunixref.pdf)
+- [Regular Expression](https://www.programiz.com/python-programming/regex)
+- [Markdown](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet#links)
 
 ## 6. Misc
-- Docstring
-- LaTex
-- Citation 
-- Google Drive Link Generator
-- Debug
+- Favorite Bash commands: `htop`, `watch -n1 nvidia-smi`/`gpustat -i1`, `jupyter lab`, `tensorboad dev upload --logdir .`
+- Docstring: [Example Google Style Python Docstrings](https://sphinxcontrib-napoleon.readthedocs.io/en/latest/example_google.html)
+- LaTex:
+  - [LaTex Online Editor](https://latex.codecogs.com/eqneditor/editor.php)
+  - [Handwritten symbols to LaTex](http://write-math.com/)
+  - [Math symbols](https://leimao.github.io/downloads/tools/Latex-Guidance/Symbols.pdf)
+- Citation: [Computer Science Style Guide Suggestions: ACM, APA and IEEE](https://dal.ca.libguides.com/c.php?g=257109&p=1717772#jaxiee)
+- [Google Drive Link Generator](https://www.wonderplugin.com/online-tools/google-drive-direct-link-generator/)
 
