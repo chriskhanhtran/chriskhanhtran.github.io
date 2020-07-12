@@ -46,12 +46,12 @@ My most frequently-used tools to complete Machine Learning projects.
 - [Streamlit API](https://docs.streamlit.io/en/stable/api.html#magic-commands)
 - [Quickly Build and Deploy a Dashboard with Streamlit and Heroku](https://towardsdatascience.com/quickly-build-and-deploy-an-application-with-streamlit-988ca08c7e83)
 
-## 5. Cheatsheet
+## 6. Cheatsheet
 - [Linux](https://files.fosswire.com/2007/08/fwunixref.pdf)
 - [Regular Expression](https://www.programiz.com/python-programming/regex)
 - [Markdown](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet#links)
 
-## 6. Misc
+## 7. Misc
 - Favorite Bash commands: `htop`, `watch -n1 nvidia-smi`/`gpustat -i1`, `jupyter lab`, `tensorboad dev upload --logdir .`
 - Docstring: [Example Google Style Python Docstrings](https://sphinxcontrib-napoleon.readthedocs.io/en/latest/example_google.html)
 - LaTex:
