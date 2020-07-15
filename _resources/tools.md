@@ -24,7 +24,8 @@ My most frequently-used tools to set up working space, monitor machine learning 
 - [Ipykernel](https://ipython.readthedocs.io/en/stable/install/kernel_install.html#kernels-for-different-environments): Create kernels for different environments so we can switch environments within Jupyter Lab/Notebook.
 
 ## 3. VSCode
-![](assets/images/blogs/vscode-workspace.gif)
+![](https://github.com/chriskhanhtran/chriskhanhtran.github.io/blob/master/assets/images/blogs/vscode-workspace.gif?raw=true)
+
 My favorite VSCode setup for machine learning projects 🤗. First, I use `RemoteSSH` extension to SSH to a virtual machine. It makes interacting with files on cloud as smooth as working locally. Then I use `Byobu` to open multiple terminal windows: `htop` (monitor CPUs), `watch -n1 nvidia-smi` (monitor GPUs), `jupyter lab`, `tensorboard dev upload --logdir .` (upload logs to [TensorBoard.dev](https://tensorboard.dev/)) etc. I can press `F2` to create a new window and press `F4` to switch between windows. Extremely convenient ⚡!
 {: .small}
 
