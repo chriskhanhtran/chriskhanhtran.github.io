@@ -6,9 +6,21 @@ toc_label: "Table of Contents"
 toc_icon: "bookmark"
 
 ---
-*Updated: 06/15/2020*
+*Updated: 08/12/2020*
 
-## 📸Computer Vision
+## 🤖Computer Vision
+### Object Detection with Detectron2
+<img src="https://dl.fbaipublicfiles.com/detectron2/Detectron2-Logo-Horz.png" width="200">
+
+A series of notebooks to dive deep into popular datasets for object detection and learn how to train Detectron2 on custom datasets.
+
+[![View on GitHub](https://img.shields.io/badge/GitHub-View_on_GitHub-blue?logo=GitHub)](https://github.com/chriskhanhtran/object-detection-detectron2)
+
+- [Notebook 4](https://github.com/chriskhanhtran/object-detection-detectron2/blob/master/04-train-big.ipynb): Train Detectron2 on Open Images dataset to detect musical instruments.
+- [Notebook 5](https://github.com/chriskhanhtran/object-detection-detectron2/blob/master/05-kaggle-global-wheat-detection.ipynb): Apply Detectron2 on [Kaggle Global Wheat Detection Competition](https://www.kaggle.com/c/global-wheat-detection).
+
+![](https://raw.githubusercontent.com/chriskhanhtran/object-detection-detectron2/master/images/output_04.png)
+
 ### Visual Recognition for Vietnamese Foods
 
 [![Open Web App](https://img.shields.io/badge/Heroku-Open_Web_App-blue?logo=Heroku)](https://vietnamese-food.herokuapp.com/)
