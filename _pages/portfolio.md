@@ -29,7 +29,8 @@ A series of notebooks to dive deep into popular datasets for object detection an
 
 I built a Computer Vision application to recognize popular Vietnamese dishes and display their information and stories. To build the application, I crawled 6,000 images using the Bing Image Search API and trained a ResNet-50 model. The model achieved 94% accuracy over 11 classes.
 
-![](https://github.com/chriskhanhtran/vn-food-app/blob/master/img/vn-food-app.gif?raw=true)
+
+<img src="https://github.com/chriskhanhtran/vn-food-app/blob/master/img/vn-food-app.gif?raw=true" width="580">{: .align-center}
 
 ### CS231n: Convolutional Neural Networks for Visual Recognition
 
@@ -57,7 +58,7 @@ This is my complete implementation of assignments and projects in [***CS231n: Co
 
 I implemented the paper [Text Summarization with Pretrained Encoders (Liu & Lapata, 2019)](https://arxiv.org/abs/1908.08345) and trained MobileBERT and DistilBERT for extractive summarization. I also built a web app demo to illustrate the usage of the model.
 
-![](https://github.com/chriskhanhtran/minimal-portfolio/raw/master/images/bertsum.gif?raw=true)
+<img src="https://github.com/chriskhanhtran/minimal-portfolio/raw/master/images/bertsum.gif?raw=true" width="580">{: .align-center}
 
 ### Transformers for Spanish
 A series of published articles with GitHub repository about my research and work projects in Transformer and its application on Spanish.
