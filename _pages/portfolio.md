@@ -20,7 +20,7 @@ A series of notebooks to dive deep into popular datasets for object detection an
 - [Notebook 4](https://github.com/chriskhanhtran/object-detection-detectron2/blob/master/04-train-big.ipynb): Train Detectron2 on Open Images dataset to detect musical instruments.
 - [Notebook 5](https://github.com/chriskhanhtran/object-detection-detectron2/blob/master/05-kaggle-global-wheat-detection.ipynb): Apply Detectron2 on [Kaggle Global Wheat Detection Competition](https://www.kaggle.com/c/global-wheat-detection).
 
-![](https://raw.githubusercontent.com/chriskhanhtran/object-detection-detectron2/master/images/output_04.png)
+<img src="https://raw.githubusercontent.com/chriskhanhtran/object-detection-detectron2/master/images/output_04.png" width="580">{: .align-center}
 
 ### Visual Recognition for Vietnamese Foods
 
@@ -28,7 +28,6 @@ A series of notebooks to dive deep into popular datasets for object detection an
 [![Open Notebook](https://img.shields.io/badge/Jupyter-Open_Notebook-blue?logo=Jupyter)](https://chriskhanhtran.github.io/posts/vn-food-classifier/)
 
 I built a Computer Vision application to recognize popular Vietnamese dishes and display their information and stories. To build the application, I crawled 6,000 images using the Bing Image Search API and trained a ResNet-50 model. The model achieved 94% accuracy over 11 classes.
-
 
 <img src="https://github.com/chriskhanhtran/vn-food-app/blob/master/img/vn-food-app.gif?raw=true" width="580">{: .align-center}
 
@@ -58,7 +57,7 @@ This is my complete implementation of assignments and projects in [***CS231n: Co
 
 I implemented the paper [Text Summarization with Pretrained Encoders (Liu & Lapata, 2019)](https://arxiv.org/abs/1908.08345) and trained MobileBERT and DistilBERT for extractive summarization. I also built a web app demo to illustrate the usage of the model.
 
-<img src="https://github.com/chriskhanhtran/minimal-portfolio/raw/master/images/bertsum.gif?raw=true" width="580">{: .align-center}
+<img src="https://github.com/chriskhanhtran/minimal-portfolio/raw/master/images/bertsum.gif?raw=true">{: .align-center}
 
 ### Transformers for Spanish
 A series of published articles with GitHub repository about my research and work projects in Transformer and its application on Spanish.
