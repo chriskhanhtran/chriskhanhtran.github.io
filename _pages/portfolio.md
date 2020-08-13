@@ -8,7 +8,7 @@ toc_icon: "bookmark"
 ---
 *Updated: 08/12/2020*
 
-## 🤖Computer Vision
+## 🤖 Computer Vision
 ### Object Detection with Detectron2
 
 <img src="https://dl.fbaipublicfiles.com/detectron2/Detectron2-Logo-Horz.png" width="200">
@@ -44,7 +44,7 @@ This is my complete implementation of assignments and projects in [***CS231n: Co
 - [Style Transfer](https://github.com/chriskhanhtran/CS231n-CV/blob/master/assignment3/StyleTransfer-PyTorch.ipynb)
 - [Generative Adversarial Networks (GANs)](https://github.com/chriskhanhtran/CS231n-CV/blob/master/assignment3/Generative_Adversarial_Networks_PyTorch.ipynb)
 
-## 🎼Natural Language Processing
+## 🎼 Natural Language Processing
 ### Extractive Summarization with BERT
 [![Read Article](https://img.shields.io/badge/GitHub-Read_Article-blue?logo=GitHub)](https://chriskhanhtran.github.io/posts/extractive-summarization-with-bert/)
 [![Open Web App](https://img.shields.io/badge/Heroku-Open_Web_App-blue?logo=Heroku)](https://extractive-summarization.herokuapp.com/)
@@ -76,7 +76,7 @@ My complete implementation of assignments and projects in [***CS224n: Natural La
 <img src="https://chriskhanhtran.github.io/minimal-portfolio/images/nlp.png" width="580">{: .align-center}
 
 ---
-### Detect Non-negative Airline Tweets: BERT for Sentiment Analysis
+### Social Media Analytics for Airline Industry: Fine-tuning BERT for Sentiment Analysis
 
 [![Run in Google Colab](https://img.shields.io/badge/Colab-Run_in_Google_Colab-blue?logo=Google&logoColor=FDBA18)](https://colab.research.google.com/drive/1f32gj5IYIyFipoINiC8P3DvKat-WWLUK)
 
@@ -104,7 +104,7 @@ In order to predict whether a message is spam, first I vectorized text messages 
 
 <img src="https://chriskhanhtran.github.io/minimal-portfolio/images/detect-spam-nlp.png" width="580">{: .align-center}
 
-## 📈Data Science
+## 📈 Data Science
 ### Credit Risk Prediction Web App
 
 [![Open Web App](https://img.shields.io/badge/Heroku-Open_Web_App-blue?logo=Heroku)](http://credit-risk.herokuapp.com/)
