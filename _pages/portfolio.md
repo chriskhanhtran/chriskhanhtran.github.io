@@ -39,16 +39,11 @@ This is my complete implementation of assignments and projects in [***CS231n: Co
 
 **Selective Topics:**
 - [NumPy Implementations of CNN](https://github.com/chriskhanhtran/CS231n-CV/blob/master/assignment2/cs231n/layers.py): Fully-connected Layer, Batchnorm, Layernorm, Dropout, Convolution, Maxpool.
-
 - [Image Captioning with LSTMs](https://github.com/chriskhanhtran/CS231n-CV/blob/master/assignment3/LSTM_Captioning.ipynb)
-
 - [Saliency Maps, Deep Dream, Fooling Images](https://github.com/chriskhanhtran/CS231n-CV/blob/master/assignment3/NetworkVisualization-PyTorch.ipynb)
-
 - [Style Transfer](https://github.com/chriskhanhtran/CS231n-CV/blob/master/assignment3/StyleTransfer-PyTorch.ipynb)
-
 - [Generative Adversarial Networks (GANs)](https://github.com/chriskhanhtran/CS231n-CV/blob/master/assignment3/Generative_Adversarial_Networks_PyTorch.ipynb)
 
----
 ## 🎼Natural Language Processing
 ### Extractive Summarization with BERT
 [![Read Article](https://img.shields.io/badge/GitHub-Read_Article-blue?logo=GitHub)](https://chriskhanhtran.github.io/posts/extractive-summarization-with-bert/)
@@ -109,7 +104,6 @@ In order to predict whether a message is spam, first I vectorized text messages 
 
 <img src="https://chriskhanhtran.github.io/minimal-portfolio/images/detect-spam-nlp.png" width="580">{: .align-center}
 
----
 ## 📈Data Science
 ### Credit Risk Prediction Web App
 
