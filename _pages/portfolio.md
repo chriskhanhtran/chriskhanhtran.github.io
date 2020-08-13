@@ -9,7 +9,9 @@ toc_icon: "bookmark"
 *Updated: 08/12/2020*
 
 ## 🤖Computer Vision
-### Object Detection with <img src="https://dl.fbaipublicfiles.com/detectron2/Detectron2-Logo-Horz.png" width="160">
+### Object Detection with Detectron2
+
+<img src="https://dl.fbaipublicfiles.com/detectron2/Detectron2-Logo-Horz.png" width="200">
 
 A series of notebooks to dive deep into popular datasets for object detection and learn how to train Detectron2 on custom datasets.
 
