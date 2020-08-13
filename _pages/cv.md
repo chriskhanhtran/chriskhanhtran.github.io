@@ -7,15 +7,24 @@ toc_icon: "bookmark"
 ---
 [Download Resume](https://chriskhanhtran.github.io/pdf/resume.pdf){: .btn .btn--info}
 
-*Updated: 06/15/2020*
+*Updated: 08/12/2020*
 
 ## 📧 Contact
 - Email: [tranduckhanh96@gmail.com]()
 - LinkedIn: [linkedin.com/in/chriskhanhtran/](https://www.linkedin.com/in/chriskhanhtran/)
 
 ## 💼 Experience
+### Etsy, Inc.
+***Computer Vision Intern***
+
+*July 2020 - Present, Brooklyn, NY*
+
+-	Applied cutting-edge Computer Vision research to improve personalization and image-based recommendations.
+-	Developed Deep Learning frameworks to extract aesthetic features from images uploaded by users to find style-matching items.
+-	Trained object detection and image segmentation models on Etsy’s datasets with Detectron2.
+
 ### Skim AI Technologies, Inc.
-***Machine Learning Engineering Intern (NLP)***
+***Machine Learning Researcher (NLP)***
 
 *October 2019 – Present, New York, NY*
 
@@ -88,7 +97,7 @@ I frequently publish articles to discuss recent research in Natural Language Pro
 
 ## 🤖 Skills
 - **Programming:** Python (NumPy, Pandas, Scikit-learn, PyTorch, TensorFlow), Big Data (Spark, Hive), R, SQL, Cypher, MATLAB
-- **NLP:** Document Classification, Named-entity Recognition, Machine Translation, Summarization
+- **NLP:** Named Entity Recognition, Sentiment Analysis, Machine Translation, Summarization
 - **Others:** 
   - Cloud Computing: AWS EC2, GCP
   - Visualization: Tableau, Matplotlib, Seaborn
