@@ -5,7 +5,7 @@ toc: true
 toc_label: "Table of Contents"
 toc_icon: "bookmark"
 ---
-[Download Resume](https://chriskhanhtran.github.io/files/resume.pdf){: .btn .btn--info}
+[Download Resume](https://chriskhanhtran.github.io/files/20200812-resume.pdf){: .btn .btn--info}
 
 *Updated: 08/12/2020*
 
@@ -20,7 +20,7 @@ toc_icon: "bookmark"
 *July 2020 - Present, Brooklyn, NY*
 
 -	Applied cutting-edge Computer Vision research to improve personalization and image-based recommendations.
--	Developed Deep Learning frameworks to extract aesthetic features from images uploaded by users to find style-matching items.
+-	Developed and trained Deep Siamese model to extract aesthetic features from listing pictures to recommend style-matching items.
 -	Trained object detection and image segmentation models on Etsy’s datasets with Detectron2.
 
 ### Skim AI Technologies, Inc.
